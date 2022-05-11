@@ -1,0 +1,126 @@
+Table 1 
+Spectral Classification Result for the 1 Jy ULIRG Sample
+
+
+Name	Spectral Type					D_AGN	Morphology	log(L_IR/L_sun)	
+IRAS FSC	[N II]	[S II]	[O I]	Adopt	VO87		Class		
+(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	
+00091 - 0738	cp	H	H	cp	H:	0.1 (0.2)	b	12.19	
+00188 - 0856	S2	H	S2	S2:	L	0.7(0.8)	e	12.33	
+00397 - 1312	cp	H	H	cp	H	0.4 (0.3)	e	12.90	
+00456 - 2904	cp	H	H	cp	H	0.2 (0.3)	a	12.12	
+00482 - 2721	cp	H:	L	cp:	L:	0.8 (0.5)	b	12.00	
+01004 - 2237	cp	S2	S2	S2:	H:	0.7 (0.4)	e	12.24	
+01166 - 0844	H::	H	 ... 	H:	H:	0 (0.2)	b	12.03	
+01199 - 2307	H:	H:	S2:	H:	H:	0.6 (1)	a	12.26	
+01298 - 0744	cp	H	L	cp:	H:	0.6 (0.3)	d	12.27	
+01355 - 1814	cp	H	H	cp	H	0.3 (0.3)	b	12.39	
+01569 - 2939	cp	H	S2	cp:	H:	0.6 (0.4)	c	12.15	
+01572+0009(MRK1014)	 ... 	 ... 	 ... 	S1	S1	1 (1)	d	12.53	
+02411+0353:main	cp	H	H	cp	H	0.3 (0.3)	b	12.19	
+02411+0353:E	H	H	H	H	H	0 (0.4)	b	 ... 	
+02411+0353:W	H	H	H	H	H	0 (0.2)	b	 ... 	
+03209 - 0806	cp	H	H:	cp	H:	0.4 (0.4)	d	12.191	
+03250+1606	cp	H	S2	cp:	L	0.6 (0.5)	d	12.06	
+Z03521+0028	S2::	S2:	S2:	S2	L	0.6 (0.6)	b	12.45	
+04074 - 2801	L:	L	L	L	L	0.9 (0.6)	c	12.14	
+04103 - 2838	S2	H	S2	S2:	L:	0.7 (0.6)	d	12.15	
+05020 - 2941	cp::	H:	S2:	cp:	L:	0.4 (0.3)	c	12.28	
+05024 - 1941	S2::	S2:	S2:	S2	S2	0.9 (1)	c	12.43	
+05156 - 3024	S2	S2	S2:	S2	S2	1 (1)	d	12.20	
+05189 - 2524	S2	S2	S2	S2	S2	1 (1)	d	12.07	
+07599+6508	 ... 	 ... 	 ... 	S1	S1	1 (1)	d	12.46	
+08201+2801	cp	H	H	cp	H	0.3 (0.3)	c	12.23	
+08559+1053	S2	S2	S2	S2	S2	0.8 (0.8)	d	12.16	
+08572+3915:NW	cp	S2	S2	S2:	L:	0.6 (0.4)	b	12.11	
+08572+3915:SE	S2	S2	H	S2:	L:	0.5(0.7)	b	 ... 	
+09039+0503	cp	H	L	cp:	L	0.5 (0.5)	c	12.07	
+09116+0334	S2::	H	S2	S2:	L:	0.6 (0.6)	a	12.11	
+09463+8141	S2::	L:	S2:	S2:	L	0.7 (0.5)	c	12.29	
+09539+0857	S2	S2	L	S2:	L	0.8 (0.6)	e	12.03	
+10091+4704	cp	L	L	L:	L:	0.5 (0.5)	c	12.67	
+10190+1322	H	H	H	H	H	0 (0.2)	b	12.00	
+10378+1108	S2	H:	S2	S2:	L	0.6 (0.6)	d	12.26	
+10485 - 1447	S2::	H:	S2:	S2:	L:	0.8 (0.5)	a	12.17	
+10494+4424	cp	H	L	cp:	L	0.6 (0.4)	d	12.13	
+10594+3818	cp:	H:	H:	cp	H	0.3 (0.3)	b	12.24	
+11028+3130	cp	H	L	cp:	L	0.5 (0.6)	c	12.32	
+11095 - 0238	cp	H	L	cp:	L	0.6 (0.4)	d	12.20	
+11119+3257	 ... 	 ... 	 ... 	S1	S1	1 (1)	d	12.58	
+11130 - 2659	cp::	H:	L:	cp:	L	0.7 (0.5)	c	12.05	
+11180+1623	cp:	H:	L:	cp:	L:	0.5 (0.4)	a	12.24	
+11223 - 1244	S2	S2	S2	S2	S2	1 (1)	a	12.59	
+11387+4116	S2	H	H	H:	H:	0.4 (0.5)	e	12.18	
+11506+1331	cp	H	L	cp:	H:	0.6(0.3)	d	12.28	
+11582+3020	cp	H	L	cp:	L	0.6 (0.5)	e	12.56	
+Z11598 - 0112	 ... 	 ... 	 ... 	S1	S1	1 (1)	d	12.43	
+12032+1707	S2	H	S2	S2:	L	0.7 (0.6)	d	12.57	
+12072 - 0444	S2	S2	S2	S2	S2	0.9 (0.8)	d	12.35	
+12112+0305	S2	S2	S2	S2	L	0.7 (0.5)	b	12.28	
+12127 - 1412	S2::	H:	H:	H:	L:	0.4 (0.6)	a	12.10	
+12265+0219(3C273)		 ... 	 ... 	S1	S1	1 (1)	d	12.73	
+12359 - 0725:N	cp	H	L	cp:	L	0.7 (0.5)	a	12.11	
+12359 - 0725:S	H	H	H	H	H	0 (0.2)	a	 ... 	
+12447+3721	cp:	H:	H:	cp	H	0.5 (0.3)	c	12.06	
+12540+5708(MRK0231)	 ... 	 ... 	 ... 	S1	S1	1 (1)	d	12.50	
+13106 - 0922	cp	H	L	cp:	L:	0.7 (0.4)	c	12.32	
+13218+0552	 ... 	 ... 	 ... 	S1	S1	1(1)	e	12.63	
+13305 - 1739	S2:	S2:	S2:	S2	S2	1 (0.9)	e	12.21	
+13335 - 2612	cp	H	S	cp:	L:	0.5 (0.4)	b	12.06	
+13342+3932	 ... 	 ... 	 ... 	S1	S1	1 (1)	d	12.37	
+13428+5608(MRK0273)	S2	S2	S2	S2	S2	0.8 (0.8)	d	12.10	
+13443+0802:NE	cp	H:	H	cp	H	0.2 (0.3)	tpl	12.15	
+13443+0802:SW	S2	S2:	S2	S2	S2	1 (1)	tpl	 ... 	
+13451+1232	S2	S2	S2	S2	S2	1(0.9)	b	12.28	
+13454 - 2956	S2	S2	S2	S2	S2	0.8 (0.8)	a	12.21	
+13469+5833	cp:	H:	H:	cp	H	0.1 (0.3)	b	12.15	
+13509+0442	cp	H:	H	cp	H	0.4 (0.2)	d	12.27	
+13539+2920	cp	H	H	cp	H:	0.5 (0.3)	b	12.00	
+14053 - 1958	L::	L:	L:	L	S2	1 (0.8)	b	12.12	
+14060+2919	cp	H	H	cp	H	0.2 (0.3)	c	12.03	
+14070+0525	S2	S2	S2	S2	S2	0.8 (0.7)	e	12.76	
+14121 - 0126	S2	H	S2	S2:	L	0.7 (0.7)	b	12.23	
+14202+2615	cp	H	H	cp	H	0.2 (0.3)	a	12.39	
+14252 - 1550	cp::	H	H	cp	L:	0.5 (0.4)	b	12.15	
+14348 - 1447:SW	cp	S2	L	cp::	L	0.7 (0.5)	b	12.28	
+14348 - 1447:NE	cp	H	L	cp:	L	0.6 (0.5)	b	 ... 	
+14394+5332	S2	S2	L	S2:	S2	0.9 (0.7)	tpl	12.04	
+15001+1433	S2	S2	S2	S2	S2	0.7 (0.6)	tpl	12.38	
+15043+5754	H	H	H	H	H	0 (0.2)	b	12.05	
+15130 - 1958	S2	S2	S2	S2	S2	1 (1)	d	12.09	
+15206+3342	cp	H	H	cp	H	0.6 (0.3)	d	12.18	
+15225+2350	cp	H	S2	cp:	H:	0.6 (0.5)	a	12.10	
+15327+2340(Arp220)	L	L	L	L	L	0.7 (0.9)	b	12.17	
+15462 - 0450	 ... 	 ... 	 ... 	S1	S1	1(1)	d	12.16	
+16090 - 0139	cp	H	H	cp	L:	0.5 (0.5)	c	12.49	
+16156+0146	S2	S2:	S2	S2	S2	1 (1)	b	12.04	
+16300+1558	cp	H	L	cp:	L	0.6 (0.4)	e	12.63	
+16333+4630	cp	H	S2	cp:	L	0.5 (0.4)	a	12.35	
+16468+5200:W	cp	H	H	cp	L:	0.2 (0.4)	b	12.02	
+16468+5200:E	cp	L	H	cp:	L	0.4 (0.4)	b	 ... 	
+16474+3430	cp	H	H	cp	H:	0.4 (0.3)	b	12.11	
+16487+5447	cp	H	S2	cp:	L:	0.5 (0.5)	b	12.12	
+17028+5817:W	cp	H	H	cp	L:	0.6 (0.4)	a	12.10	
+17028+5817:E	H	H	H	H	H	0 (0.1)	a	 ... 	
+17044+6720	S2	S2	S2	S2	L	0.7 (0.6)	d	12.13	
+17068+4027	cp	H	H	cp	H	0.5(0.3)	tpl	12.30	
+17179+5444	S2	S2	S2	S2	S2	1 (1)	d	12.20	
+20414 - 1651	cp	H	L	cp:	H:	0.5 (0.3)	d	12.14	
+21208 - 0519:N	cp	H:	H	cp	H	0.2 (0.3)	a	12.01	
+21208 - 0519:S	cp	H:	H	cp	H:	0.4 (0.4)	a	 ... 	
+21219 - 1757	 ... 	 ... 	 ... 	S1	S1	1 (1)	e	12.06	
+21329 - 2346	cp	H	L	cp:	L	0.5 (0.4)	d	12.09	
+21477+0502	cp	H:	L	cp:	L:	0.6 (0.4)	tpl	12.24	
+22088 - 1831	H	H:	H:	H	H:	0 (0.2)	b	12.31	
+22206 - 2715	cp	H	L	cp:	H:	0.5 (0.3)	b	12.19	
+22491 - 1808	H	H	H	H	H	0 (0.2)	b	12.09	
+22541+0833:NW	cp	L:	H	cp:	L:	0.4 (0.5)	a	12.23	
+22541+0833:SE	 ... 	 ... 	 ... 	 ... 	S2:	 ...  ( ... )	a	 ... 	
+23060+0505	S2	S2	S2:	S2	S2	0.9 (0.8)	d	12.44	
+23129+2548	cp::	H	L:	cp:	L:	0.5 (0.4)	c	12.38	
+23233+2817	S2	S2	S2	S2	S2	1 (1)	iso	12.00	
+23234+0946	cp	H	L:	cp:	L	0.6 (0.5)	b	12.05	
+23327+2913	S2	H	S2:	S2:	L:	0.6 (0.6)	a	12.06	
+23389+0300	S2:	S2:	L:	S2:	S2	1 (1)	b	12.09	
+23498+2423	S2	S2	S2:	S2	S2	0.9 (1)	a	12.40	
+Notes. Column 1: galaxy name. Columns 2-4: optical spectral types derived in this work from the [N II] lambda6583, [S II] lambdalambda6716, 6731, and [O I] lambda6300 diagrams, respectively. The typical uncertainty on the emission-line ratios is ~10%; colons in Columns 3 and 4 indicate larger uncertainty of the line ratios of ~25% for [S II]/Halpha and [O I]/Halpha, respectively; double colons in Column 2 indicate larger uncertainty of the line ratios of ~25% for [O III]/Hbeta. Column 5 is the adopted spectral type using the 2-of-3 scheme; single colons indicate the object does not have the same spectral type in all three diagrams, i.e., the ambiguous class. Double colon means the classification does not agree on any of the diagrams, the classification in those rare cases is highly uncertain. For comparison, Column 6 lists the VO87 classification results (Veilleux et al. 1999). Symbols: H = star-forming galaxies, L = LINERs, S2 = Seyfert 2 galaxies, S1 = Seyfert 1 galaxies, cp = starburst-AGN composite galaxies. Column 7: D_AGN defined on the [O I]/Halpha diagram, for comparison, in the bracket we also list the D_AGN derived from the [N II]/Halpha diagram (see Appendix A). Column 8: morphology class as adopted from Veilleux et al. (2002). a: wide binary; b: close binary; c: diffuse merger; d: compact merger; e: old merger; tpl: triple mergers; iso: isolated. Column 9: log(L_IR/L_sun), data from Veilleux et al. (1999).
