@@ -1,0 +1,516 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                21884 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0'?>
+<VOTABLE version="1.4"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+<!--
+ !  VOTable written by STIL version 3.4-2 (uk.ac.starlink.votable.VOTableWriter)
+ !  at 2022-05-13T04:22:39
+ !-->
+<RESOURCE>
+<!-- Describes BINTABLE extensions in the following HDU.-->
+<TABLE name="Joined" nrows="5">
+<PARAM arraysize="16" datatype="char" name="CHECKSUM" value="IaYgIZXeIaXeIWXe">
+<DESCRIPTION>HDU checksum updated 2021-02-23T16:07:34</DESCRIPTION>
+</PARAM>
+<PARAM datatype="int" name="DATASUM" value="217557703">
+<DESCRIPTION>data unit checksum updated 2021-02-23T16:07:34</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="81" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="37" datatype="char" name="Match type" value="Multi-table match performed by TOPCAT">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="19" datatype="char" name="Max Error" value="4.84813681109536E-6"/>
+<PARAM arraysize="6" datatype="char" name="Matched table 1" value="Joined">
+<DESCRIPTION>Table on which the match was done</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="6" datatype="char" name="Matched table 2" value="Joined">
+<DESCRIPTION>Table on which the match was done</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="6" datatype="char" name="Matched table 3" value="Joined">
+<DESCRIPTION>Table on which the match was done</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="6" datatype="char" name="Matched table 4" value="Joined">
+<DESCRIPTION>Table on which the match was done</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="16" datatype="char" name="First input table" value="1: VLASS_V_3.fit"/>
+<PARAM arraysize="28" datatype="char" name="Second input table" value="2: VLBI_VLAF_Mull_MaNGA.fits"/>
+<FIELD datatype="float" name="_RAJ2000" unit="deg"/>
+<FIELD datatype="float" name="_DEJ2000" unit="deg"/>
+<FIELD arraysize="31" datatype="char" name="CompName"/>
+<FIELD datatype="float" name="RAJ2000" unit="deg"/>
+<FIELD datatype="float" name="DEJ2000" unit="deg"/>
+<FIELD datatype="float" name="Ftot" unit="mJy"/>
+<FIELD datatype="float" name="e_Ftot" unit="mJy"/>
+<FIELD datatype="float" name="Fpeak" unit="mJy/beam"/>
+<FIELD datatype="float" name="e_Fpeak" unit="mJy/beam"/>
+<FIELD datatype="float" name="Maj" unit="arcsec"/>
+<FIELD datatype="float" name="e_Maj" unit="arcsec"/>
+<FIELD datatype="float" name="Min" unit="arcsec"/>
+<FIELD datatype="float" name="e_Min" unit="arcsec"/>
+<FIELD arraysize="237" datatype="char" name="QLcutout"/>
+<FIELD datatype="int" name="recno"/>
+<FIELD arraysize="1" datatype="char" name="Category:"/>
+<FIELD arraysize="8" datatype="char" name="IVS name"/>
+<FIELD arraysize="10" datatype="char" name="IAU name"/>
+<FIELD datatype="double" name="RA_1"/>
+<FIELD datatype="double" name="DEC_1"/>
+<FIELD datatype="double" name="col6"/>
+<FIELD datatype="short" name="RA h">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="RA m">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="double" name="RA s"/>
+<FIELD datatype="short" name="Dec d">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="short" name="Dec m">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="double" name="Dec s"/>
+<FIELD datatype="float" name="Er in RA"/>
+<FIELD datatype="float" name="Er in Dec"/>
+<FIELD datatype="float" name="Corr"/>
+<FIELD datatype="int" name="Number">
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD datatype="float" name="s- band total"/>
+<FIELD arraysize="6" datatype="char" name="s Flux unres"/>
+<FIELD datatype="float" name="c- band total"/>
+<FIELD arraysize="6" datatype="char" name="c Flux unres"/>
+<FIELD datatype="float" name="X- band total"/>
+<FIELD arraysize="6" datatype="char" name="x Flux unres"/>
+<FIELD datatype="float" name="U- band total"/>
+<FIELD arraysize="6" datatype="char" name="U Flux unres"/>
+<FIELD datatype="float" name="K- band total"/>
+<FIELD arraysize="6" datatype="char" name="K Flux unres"/>
+<FIELD arraysize="3" datatype="char" name="Type"/>
+<FIELD arraysize="9" datatype="char" name="Cat"/>
+<FIELD datatype="long" name="plate">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD arraysize="32" datatype="char" name="ifudsgn"/>
+<FIELD arraysize="32" datatype="char" name="plateifu"/>
+<FIELD arraysize="32" datatype="char" name="mangaid"/>
+<FIELD arraysize="32" datatype="char" name="versdrp2"/>
+<FIELD arraysize="32" datatype="char" name="versdrp3"/>
+<FIELD arraysize="32" datatype="char" name="verscore"/>
+<FIELD arraysize="32" datatype="char" name="versutil"/>
+<FIELD arraysize="32" datatype="char" name="versprim"/>
+<FIELD arraysize="32" datatype="char" name="platetyp"/>
+<FIELD arraysize="32" datatype="char" name="srvymode"/>
+<FIELD datatype="double" name="objra"/>
+<FIELD datatype="double" name="objdec"/>
+<FIELD datatype="double" name="ifuglon"/>
+<FIELD datatype="double" name="ifuglat"/>
+<FIELD datatype="double" name="ifura"/>
+<FIELD datatype="double" name="ifudec"/>
+<FIELD datatype="double" name="ebvgal"/>
+<FIELD datatype="long" name="nexp">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="exptime"/>
+<FIELD datatype="long" name="drp3qual">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="bluesn2"/>
+<FIELD datatype="double" name="redsn2"/>
+<FIELD arraysize="53" datatype="char" name="harname"/>
+<FIELD datatype="long" name="frlplug">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD arraysize="32" datatype="char" name="cartid"/>
+<FIELD datatype="long" name="designid">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="cenra"/>
+<FIELD datatype="double" name="cendec"/>
+<FIELD datatype="double" name="airmsmin"/>
+<FIELD datatype="double" name="airmsmed"/>
+<FIELD datatype="double" name="airmsmax"/>
+<FIELD datatype="double" name="seemin"/>
+<FIELD datatype="double" name="seemed"/>
+<FIELD datatype="double" name="seemax"/>
+<FIELD datatype="double" name="transmin"/>
+<FIELD datatype="double" name="transmed"/>
+<FIELD datatype="double" name="transmax"/>
+<FIELD datatype="long" name="mjdmin">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="mjdmed">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="mjdmax">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="gfwhm"/>
+<FIELD datatype="double" name="rfwhm"/>
+<FIELD datatype="double" name="ifwhm"/>
+<FIELD datatype="double" name="zfwhm"/>
+<FIELD datatype="long" name="mngtarg1">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="mngtarg2">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="mngtarg3">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="catidnum">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD arraysize="32" datatype="char" name="plttarg"/>
+<FIELD datatype="long" name="manga_tileid">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD arraysize="19" datatype="char" name="nsa_iauname"/>
+<FIELD datatype="long" name="ifudesignsize">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="ifutargetsize">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="ifudesignwrongsize">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="z_2"/>
+<FIELD datatype="double" name="zmin"/>
+<FIELD datatype="double" name="zmax"/>
+<FIELD datatype="double" name="szmin"/>
+<FIELD datatype="double" name="szmax"/>
+<FIELD datatype="double" name="ezmin"/>
+<FIELD datatype="double" name="ezmax"/>
+<FIELD datatype="double" name="probs"/>
+<FIELD datatype="double" name="pweight"/>
+<FIELD datatype="double" name="psweight"/>
+<FIELD datatype="double" name="psrweight"/>
+<FIELD datatype="double" name="sweight"/>
+<FIELD datatype="double" name="srweight"/>
+<FIELD datatype="double" name="eweight"/>
+<FIELD datatype="double" name="esweight"/>
+<FIELD datatype="double" name="esrweight"/>
+<FIELD datatype="long" name="nsa_field">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="nsa_run">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="nsa_camcol">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD arraysize="6" datatype="char" name="nsa_version"/>
+<FIELD datatype="long" name="nsa_nsaid">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="long" name="nsa_nsaid_v1b">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD datatype="double" name="nsa_z"/>
+<FIELD datatype="double" name="nsa_zdist"/>
+<FIELD arraysize="7" datatype="double" name="nsa_sersic_absmag"/>
+<FIELD arraysize="7" datatype="double" name="nsa_elpetro_absmag"/>
+<FIELD arraysize="7" datatype="double" name="nsa_elpetro_amivar"/>
+<FIELD datatype="double" name="nsa_sersic_mass"/>
+<FIELD datatype="double" name="nsa_elpetro_mass"/>
+<FIELD datatype="double" name="nsa_elpetro_ba"/>
+<FIELD datatype="double" name="nsa_elpetro_phi"/>
+<FIELD arraysize="7" datatype="double" name="nsa_extinction"/>
+<FIELD datatype="double" name="nsa_elpetro_th50_r"/>
+<FIELD datatype="double" name="nsa_petro_th50"/>
+<FIELD arraysize="7" datatype="double" name="nsa_petro_flux"/>
+<FIELD arraysize="7" datatype="double" name="nsa_petro_flux_ivar"/>
+<FIELD arraysize="7" datatype="double" name="nsa_elpetro_flux"/>
+<FIELD arraysize="7" datatype="double" name="nsa_elpetro_flux_ivar"/>
+<FIELD datatype="double" name="nsa_sersic_ba"/>
+<FIELD datatype="double" name="nsa_sersic_n"/>
+<FIELD datatype="double" name="nsa_sersic_phi"/>
+<FIELD datatype="double" name="nsa_sersic_th50"/>
+<FIELD arraysize="7" datatype="double" name="nsa_sersic_flux"/>
+<FIELD arraysize="7" datatype="double" name="nsa_sersic_flux_ivar"/>
+<FIELD arraysize="22" datatype="char" name="NAME_3"/>
+<FIELD datatype="float" name="RA_3" unit="DEGREE"/>
+<FIELD datatype="float" name="DEC_3" unit="DEGREE"/>
+<FIELD datatype="float" name="FLUX_20_CM" unit="MJY"/>
+<FIELD datatype="float" name="FLUX_20_CM_ERROR" unit="MJY"/>
+<FIELD datatype="float" name="INT_FLUX_20_CM" unit="MJY"/>
+<FIELD datatype="float" name="SIDELOBE_PROB"/>
+<FIELD arraysize="25" datatype="char" name="NAME_4"/>
+<FIELD datatype="long" name="OBJID">
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD arraysize="67" datatype="char" name="URL"/>
+<FIELD datatype="double" name="RA_4"/>
+<FIELD datatype="double" name="DEC_4"/>
+<FIELD datatype="float" name="Z_4"/>
+<FIELD datatype="short" name="AGN_TYPE">
+<VALUES null='-32768'/>
+</FIELD>
+<FIELD datatype="float" name="SDSS_HA_NSIG"/>
+<FIELD datatype="float" name="SDSS_HA_EW"/>
+<FIELD datatype="float" name="SDSS_HA_EW_ERR"/>
+<FIELD datatype="float" name="SDSS_HA_CONT"/>
+<FIELD datatype="float" name="SDSS_HA_CENWAV"/>
+<FIELD datatype="float" name="SDSS_HA_CENWAV_ERR"/>
+<FIELD datatype="float" name="SDSS_HA_SIGMA"/>
+<FIELD datatype="float" name="SDSS_HA_SIGMA_ERR"/>
+<FIELD datatype="float" name="SDSS_HA_HEIGHT"/>
+<FIELD datatype="float" name="SDSS_HEIGHT_ERR"/>
+<FIELD datatype="float" name="SDSS_HB_NSIG"/>
+<FIELD datatype="float" name="SDSS_HB_EW"/>
+<FIELD datatype="float" name="SDSS_HB_EWERR"/>
+<FIELD datatype="float" name="SDSS_HB_CONT"/>
+<FIELD datatype="float" name="SDSS_HB_CENWAV"/>
+<FIELD datatype="float" name="SDSS_HB_CENWAVERR"/>
+<FIELD datatype="float" name="SDSS_HB_SIGMA"/>
+<FIELD datatype="float" name="SDSS_HB_SIGMAERR"/>
+<FIELD datatype="float" name="SDSS_HB_HEIGHT"/>
+<FIELD datatype="float" name="SDSS_HB_HEIGHTERR"/>
+<FIELD datatype="float" name="SDSS_OIII_NSIG"/>
+<FIELD datatype="float" name="SDSS_OIII_EW"/>
+<FIELD datatype="float" name="SDSS_OIII_EWERR"/>
+<FIELD datatype="float" name="SDSS_OIII_CONT"/>
+<FIELD datatype="float" name="SDSS_OIII_CENWAV"/>
+<FIELD datatype="float" name="SDSS_OIII_CENWAVERR"/>
+<FIELD datatype="float" name="SDSS_OIII_SIGMA"/>
+<FIELD datatype="float" name="SDSS_OIII_SIGMAERR"/>
+<FIELD datatype="float" name="SDSS_OIII_HEIGHT"/>
+<FIELD datatype="float" name="SDSS_OIII_HEIGHTERR"/>
+<FIELD datatype="float" name="SDSS_NII_NSIG"/>
+<FIELD datatype="float" name="SDSS_NII_EW"/>
+<FIELD datatype="float" name="SDSS_NII_EWERR"/>
+<FIELD datatype="float" name="SDSS_NII_CONT"/>
+<FIELD datatype="float" name="SDSS_NII_CENWAV"/>
+<FIELD datatype="float" name="SDSS_NII_CENWAVERR"/>
+<FIELD datatype="float" name="SDSS_NII_SIGMA"/>
+<FIELD datatype="float" name="SDSS_NII_SIGMAERR"/>
+<FIELD datatype="float" name="SDSS_NII_HEIGHT"/>
+<FIELD datatype="float" name="SDSS_NII_HEIGHTERR"/>
+<FIELD datatype="float" name="HB_WAV"/>
+<FIELD datatype="float" name="HB_NORM"/>
+<FIELD datatype="float" name="HB_NORM_ERR"/>
+<FIELD datatype="float" name="HB_FWHM"/>
+<FIELD datatype="float" name="HB_FWHM_ERR"/>
+<FIELD datatype="float" name="HB_VEL"/>
+<FIELD datatype="float" name="HB_VEL_ERR"/>
+<FIELD datatype="float" name="HB_FLUX"/>
+<FIELD datatype="float" name="HB_FLUX_ERR"/>
+<FIELD datatype="double" name="HB_LUM"/>
+<FIELD datatype="double" name="HB_LUM_ERR"/>
+<FIELD datatype="float" name="HBB_WAV"/>
+<FIELD datatype="float" name="HBB_NORM"/>
+<FIELD datatype="float" name="HBB_NORM_ERR"/>
+<FIELD datatype="float" name="HBB_FWHM"/>
+<FIELD datatype="float" name="HBB_FWHM_ERR"/>
+<FIELD datatype="float" name="HBB_VEL"/>
+<FIELD datatype="float" name="HBB_VEL_ERR"/>
+<FIELD datatype="float" name="HBB_FLUX"/>
+<FIELD datatype="float" name="HBB_FLUX_ERR"/>
+<FIELD datatype="double" name="HBB_LUM"/>
+<FIELD datatype="double" name="HBB_LUM_ERR"/>
+<FIELD datatype="float" name="HBBB_WAV"/>
+<FIELD datatype="float" name="HBBB_NORM"/>
+<FIELD datatype="float" name="HBBB_NORM_ERR"/>
+<FIELD datatype="float" name="HBBB_FWHM"/>
+<FIELD datatype="float" name="HBBB_FWHM_ERR"/>
+<FIELD datatype="float" name="HBBB_VEL"/>
+<FIELD datatype="float" name="HBBB_VEL_ERR"/>
+<FIELD datatype="float" name="HBBB_FLUX"/>
+<FIELD datatype="float" name="HBBB_FLUX_ERR"/>
+<FIELD datatype="double" name="HBBB_LUM"/>
+<FIELD datatype="double" name="HBBB_LUM_ERR"/>
+<FIELD datatype="float" name="OIII_4959_WAV"/>
+<FIELD datatype="float" name="OIII_4959_NORM"/>
+<FIELD datatype="float" name="OIII_4959_NORM_ERR"/>
+<FIELD datatype="float" name="OIII_4959_FWHM"/>
+<FIELD datatype="float" name="OIII_4959_FWHM_ERR"/>
+<FIELD datatype="float" name="OIII_4959_VEL"/>
+<FIELD datatype="float" name="OIII_4959_VEL_ERR"/>
+<FIELD datatype="float" name="OIII_4959_FLUX"/>
+<FIELD datatype="float" name="OIII_4959_FLUX_ERR"/>
+<FIELD datatype="double" name="OIII_4959_LUM"/>
+<FIELD datatype="double" name="OIII_4959_LUM_ERR"/>
+<FIELD datatype="float" name="OIII_4959B_WAV"/>
+<FIELD datatype="float" name="OIII_4959B_NORM"/>
+<FIELD datatype="float" name="OIII_4959B_NORM_ERR"/>
+<FIELD datatype="float" name="OIII_4959B_FWHM"/>
+<FIELD datatype="float" name="OIII_4959B_FWHM_ERR"/>
+<FIELD datatype="float" name="OIII_4959B_VEL"/>
+<FIELD datatype="float" name="OIII_4959B_VEL_ERR"/>
+<FIELD datatype="float" name="OIII_4959B_FLUX"/>
+<FIELD datatype="float" name="OIII_4959B_FLUX_ERR"/>
+<FIELD datatype="double" name="OIII_4959B_LUM"/>
+<FIELD datatype="double" name="OIII_4959B_LUM_ERR"/>
+<FIELD datatype="float" name="OIII_5007_WAV"/>
+<FIELD datatype="float" name="OIII_5007_NORM"/>
+<FIELD datatype="float" name="OIII_5007_NORM_ERR"/>
+<FIELD datatype="float" name="OIII_5007_FWHM"/>
+<FIELD datatype="float" name="OIII_5007_FWHM_ERR"/>
+<FIELD datatype="float" name="OIII_5007_VEL"/>
+<FIELD datatype="float" name="OIII_5007_VEL_ERR"/>
+<FIELD datatype="float" name="OIII_5007_FLUX"/>
+<FIELD datatype="float" name="OIII_5007_FLUX_ERR"/>
+<FIELD datatype="double" name="OIII_5007_LUM"/>
+<FIELD datatype="double" name="OIII_5007_LUM_ERR"/>
+<FIELD datatype="float" name="OIII_5007B_WAV"/>
+<FIELD datatype="float" name="OIII_5007B_NORM"/>
+<FIELD datatype="float" name="OIII_5007B_NORM_ERR"/>
+<FIELD datatype="float" name="OIII_5007B_FWHM"/>
+<FIELD datatype="float" name="OIII_5007B_FWHM_ERR"/>
+<FIELD datatype="float" name="OIII_5007B_VEL"/>
+<FIELD datatype="float" name="OIII_5007B_VEL_ERR"/>
+<FIELD datatype="float" name="OIII_5007B_FLUX"/>
+<FIELD datatype="float" name="OIII_5007B_FLUX_ERR"/>
+<FIELD datatype="double" name="OIII_5007B_LUM"/>
+<FIELD datatype="double" name="OIII_5007B_LUM_ERR"/>
+<FIELD datatype="float" name="NII_6548_WAV"/>
+<FIELD datatype="float" name="NII_6548_NORM"/>
+<FIELD datatype="float" name="NII_6548_NORM_ERR"/>
+<FIELD datatype="float" name="NII_6548_FWHM"/>
+<FIELD datatype="float" name="NII_6548_FWHM_ERR"/>
+<FIELD datatype="float" name="NII_6548_VEL"/>
+<FIELD datatype="float" name="NII_6548_VEL_ERR"/>
+<FIELD datatype="float" name="NII_6548_FLUX"/>
+<FIELD datatype="float" name="NII_6548_FLUX_ERR"/>
+<FIELD datatype="double" name="NII_6548_LUM"/>
+<FIELD datatype="double" name="NII_6548_LUM_ERR"/>
+<FIELD datatype="float" name="NII_6548B_WAV"/>
+<FIELD datatype="float" name="NII_6548B_NORM"/>
+<FIELD datatype="float" name="NII_6548B_NORM_ERR"/>
+<FIELD datatype="float" name="NII_6548B_FWHM"/>
+<FIELD datatype="float" name="NII_6548B_FWHM_ERR"/>
+<FIELD datatype="float" name="NII_6548B_VEL"/>
+<FIELD datatype="float" name="NII_6548B_VEL_ERR"/>
+<FIELD datatype="float" name="NII_6548B_FLUX"/>
+<FIELD datatype="float" name="NII_6548B_FLUX_ERR"/>
+<FIELD datatype="double" name="NII_6548B_LUM"/>
+<FIELD datatype="double" name="NII_6548B_LUM_ERR"/>
+<FIELD datatype="float" name="HA_WAV"/>
+<FIELD datatype="float" name="HA_NORM"/>
+<FIELD datatype="float" name="HA_NORM_ERR"/>
+<FIELD datatype="float" name="HA_FWHM"/>
+<FIELD datatype="float" name="HA_FWHM_ERR"/>
+<FIELD datatype="float" name="HA_VEL"/>
+<FIELD datatype="float" name="HA_VEL_ERR"/>
+<FIELD datatype="float" name="HA_FLUX"/>
+<FIELD datatype="float" name="HA_FLUX_ERR"/>
+<FIELD datatype="double" name="HA_LUM"/>
+<FIELD datatype="double" name="HA_LUM_ERR"/>
+<FIELD datatype="float" name="HAB_WAV"/>
+<FIELD datatype="float" name="HAB_NORM"/>
+<FIELD datatype="float" name="HAB_NORM_ERR"/>
+<FIELD datatype="float" name="HAB_FWHM"/>
+<FIELD datatype="float" name="HAB_FWHM_ERR"/>
+<FIELD datatype="float" name="HAB_VEL"/>
+<FIELD datatype="float" name="HAB_VEL_ERR"/>
+<FIELD datatype="float" name="HAB_FLUX"/>
+<FIELD datatype="float" name="HAB_FLUX_ERR"/>
+<FIELD datatype="double" name="HAB_LUM"/>
+<FIELD datatype="double" name="HAB_LUM_ERR"/>
+<FIELD datatype="float" name="HABB_WAV"/>
+<FIELD datatype="float" name="HABB_NORM"/>
+<FIELD datatype="float" name="HABB_NORM_ERR"/>
+<FIELD datatype="float" name="HABB_FWHM"/>
+<FIELD datatype="float" name="HABB_FWHM_ERR"/>
+<FIELD datatype="float" name="HABB_VEL"/>
+<FIELD datatype="float" name="HABB_VEL_ERR"/>
+<FIELD datatype="float" name="HABB_FLUX"/>
+<FIELD datatype="float" name="HABB_FLUX_ERR"/>
+<FIELD datatype="double" name="HABB_LUM"/>
+<FIELD datatype="double" name="HABB_LUM_ERR"/>
+<FIELD datatype="float" name="NII_6584_WAV"/>
+<FIELD datatype="float" name="NII_6584_NORM"/>
+<FIELD datatype="float" name="NII_6584_NORM_ERR"/>
+<FIELD datatype="float" name="NII_6584_FWHM"/>
+<FIELD datatype="float" name="NII_6584_FWHM_ERR"/>
+<FIELD datatype="float" name="NII_6584_VEL"/>
+<FIELD datatype="float" name="NII_6584_VEL_ERR"/>
+<FIELD datatype="float" name="NII_6584_FLUX"/>
+<FIELD datatype="float" name="NII_6584_FLUX_ERR"/>
+<FIELD datatype="double" name="NII_6584_LUM"/>
+<FIELD datatype="double" name="NII_6584_LUM_ERR"/>
+<FIELD datatype="float" name="NII_6584B_WAV"/>
+<FIELD datatype="float" name="NII_6584B_NORM"/>
+<FIELD datatype="float" name="NII_6584B_NORM_ERR"/>
+<FIELD datatype="float" name="NII_6584B_FWHM"/>
+<FIELD datatype="float" name="NII_6584B_FWHM_ERR"/>
+<FIELD datatype="float" name="NII_6584B_VEL"/>
+<FIELD datatype="float" name="NII_6584B_VEL_ERR"/>
+<FIELD datatype="float" name="NII_6584B_FLUX"/>
+<FIELD datatype="float" name="NII_6584B_FLUX_ERR"/>
+<FIELD datatype="double" name="NII_6584B_LUM"/>
+<FIELD datatype="double" name="NII_6584B_LUM_ERR"/>
+<FIELD datatype="float" name="HB_NARR_FLUX"/>
+<FIELD datatype="float" name="HA_NARR_FLUX"/>
+<FIELD datatype="float" name="AV"/>
+<FIELD datatype="double" name="OIII_5007_LUM_DERRED"/>
+<FIELD datatype="double" name="HA_LUM_DERRED"/>
+<FIELD datatype="float" name="R_EDD"/>
+<FIELD datatype="float" name="SYS_VEL"/>
+<FIELD datatype="float" name="NVS_N"/>
+<FIELD arraysize="15" datatype="char" name="NVS_IDS"/>
+<FIELD datatype="float" name="NVS_RA"/>
+<FIELD datatype="float" name="NVS_DEC"/>
+<FIELD datatype="float" name="NVS_FLUX"/>
+<FIELD datatype="double" name="NVS_LUM"/>
+<FIELD datatype="float" name="FIR_N"/>
+<FIELD arraysize="76" datatype="char" name="FIR_IDS"/>
+<FIELD datatype="float" name="FIR_FLUX"/>
+<FIELD datatype="double" name="FIR_LUM"/>
+<FIELD datatype="float" name="B_MAG"/>
+<FIELD datatype="float" name="B_FLUX"/>
+<FIELD datatype="double" name="Separation" ucd="pos.angDistance" unit="arcsec">
+<DESCRIPTION>Distance between matched objects along a great circle</DESCRIPTION>
+</FIELD>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                 3318 / width of table in bytes                        NAXIS2  =                    5 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                  370 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = '_RAJ2000'           / label for column 1                             TFORM1  = 'E       '           / format for column 1                            TUNIT1  = 'deg     '           / units for column 1                             TTYPE2  = '_DEJ2000'           / label for column 2                             TFORM2  = 'E       '           / format for column 2                            TUNIT2  = 'deg     '           / units for column 2                             TTYPE3  = 'CompName'           / label for column 3                             TFORM3  = '31A     '           / format for column 3                            TTYPE4  = 'RAJ2000 '           / label for column 4                             TFORM4  = 'E       '           / format for column 4                            TUNIT4  = 'deg     '           / units for column 4                             TTYPE5  = 'DEJ2000 '           / label for column 5                             TFORM5  = 'E       '           / format for column 5                            TUNIT5  = 'deg     '           / units for column 5                             TTYPE6  = 'Ftot    '           / label for column 6                             TFORM6  = 'E       '           / format for column 6                            TUNIT6  = 'mJy     '           / units for column 6                             TTYPE7  = 'e_Ftot  '           / label for column 7                             TFORM7  = 'E       '           / format for column 7                            TUNIT7  = 'mJy     '           / units for column 7                             TTYPE8  = 'Fpeak   '           / label for column 8                             TFORM8  = 'E       '           / format for column 8                            TUNIT8  = 'mJy/beam'           / units for column 8                             TTYPE9  = 'e_Fpeak '           / label for column 9                             TFORM9  = 'E       '           / format for column 9                            TUNIT9  = 'mJy/beam'           / units for column 9                             TTYPE10 = 'Maj     '           / label for column 10                            TFORM10 = 'E       '           / format for column 10                           TUNIT10 = 'arcsec  '           / units for column 10                            TTYPE11 = 'e_Maj   '           / label for column 11                            TFORM11 = 'E       '           / format for column 11                           TUNIT11 = 'arcsec  '           / units for column 11                            TTYPE12 = 'Min     '           / label for column 12                            TFORM12 = 'E       '           / format for column 12                           TUNIT12 = 'arcsec  '           / units for column 12                            TTYPE13 = 'e_Min   '           / label for column 13                            TFORM13 = 'E       '           / format for column 13                           TUNIT13 = 'arcsec  '           / units for column 13                            TTYPE14 = 'QLcutout'           / label for column 14                            TFORM14 = '237A    '           / format for column 14                           TTYPE15 = 'recno   '           / label for column 15                            TFORM15 = 'J       '           / format for column 15                           TTYPE16 = 'Category:'          / label for column 16                            TFORM16 = 'A       '           / format for column 16                           TTYPE17 = 'IVS name'           / label for column 17                            TFORM17 = '8A      '           / format for column 17                           TTYPE18 = 'IAU name'           / label for column 18                            TFORM18 = '10A     '           / format for column 18                           TTYPE19 = 'RA_1    '           / label for column 19                            TFORM19 = 'D       '           / format for column 19                           TTYPE20 = 'DEC_1   '           / label for column 20                            TFORM20 = 'D       '           / format for column 20                           TTYPE21 = 'col6    '           / label for column 21                            TFORM21 = 'D       '           / format for column 21                           TTYPE22 = 'RA h    '           / label for column 22                            TFORM22 = 'I       '           / format for column 22                           TNULL22 =               -32768 / blank value for column 22                      TTYPE23 = 'RA m    '           / label for column 23                            TFORM23 = 'I       '           / format for column 23                           TNULL23 =               -32768 / blank value for column 23                      TTYPE24 = 'RA s    '           / label for column 24                            TFORM24 = 'D       '           / format for column 24                           TTYPE25 = 'Dec d   '           / label for column 25                            TFORM25 = 'I       '           / format for column 25                           TNULL25 =               -32768 / blank value for column 25                      TTYPE26 = 'Dec m   '           / label for column 26                            TFORM26 = 'I       '           / format for column 26                           TNULL26 =               -32768 / blank value for column 26                      TTYPE27 = 'Dec s   '           / label for column 27                            TFORM27 = 'D       '           / format for column 27                           TTYPE28 = 'Er in RA'           / label for column 28                            TFORM28 = 'E       '           / format for column 28                           TTYPE29 = 'Er in Dec'          / label for column 29                            TFORM29 = 'E       '           / format for column 29                           TTYPE30 = 'Corr    '           / label for column 30                            TFORM30 = 'E       '           / format for column 30                           TTYPE31 = 'Number  '           / label for column 31                            TFORM31 = 'J       '           / format for column 31                           TNULL31 =          -2147483648 / blank value for column 31                      TTYPE32 = 's- band total'      / label for column 32                            TFORM32 = 'E       '           / format for column 32                           TTYPE33 = 's Flux unres'       / label for column 33                            TFORM33 = '6A      '           / format for column 33                           TTYPE34 = 'c- band total'      / label for column 34                            TFORM34 = 'E       '           / format for column 34                           TTYPE35 = 'c Flux unres'       / label for column 35                            TFORM35 = '6A      '           / format for column 35                           TTYPE36 = 'X- band total'      / label for column 36                            TFORM36 = 'E       '           / format for column 36                           TTYPE37 = 'x Flux unres'       / label for column 37                            TFORM37 = '6A      '           / format for column 37                           TTYPE38 = 'U- band total'      / label for column 38                            TFORM38 = 'E       '           / format for column 38                           TTYPE39 = 'U Flux unres'       / label for column 39                            TFORM39 = '6A      '           / format for column 39                           TTYPE40 = 'K- band total'      / label for column 40                            TFORM40 = 'E       '           / format for column 40                           TTYPE41 = 'K Flux unres'       / label for column 41                            TFORM41 = '6A      '           / format for column 41                           TTYPE42 = 'Type    '           / label for column 42                            TFORM42 = '3A      '           / format for column 42                           TTYPE43 = 'Cat     '           / label for column 43                            TFORM43 = '9A      '           / format for column 43                           TTYPE44 = 'plate   '           / label for column 44                            TFORM44 = 'K       '           / format for column 44                           TTYPE45 = 'ifudsgn '           / label for column 45                            TFORM45 = '32A     '           / format for column 45                           TTYPE46 = 'plateifu'           / label for column 46                            TFORM46 = '32A     '           / format for column 46                           TTYPE47 = 'mangaid '           / label for column 47                            TFORM47 = '32A     '           / format for column 47                           TTYPE48 = 'versdrp2'           / label for column 48                            TFORM48 = '32A     '           / format for column 48                           TTYPE49 = 'versdrp3'           / label for column 49                            TFORM49 = '32A     '           / format for column 49                           TTYPE50 = 'verscore'           / label for column 50                            TFORM50 = '32A     '           / format for column 50                           TTYPE51 = 'versutil'           / label for column 51                            TFORM51 = '32A     '           / format for column 51                           TTYPE52 = 'versprim'           / label for column 52                            TFORM52 = '32A     '           / format for column 52                           TTYPE53 = 'platetyp'           / label for column 53                            TFORM53 = '32A     '           / format for column 53                           TTYPE54 = 'srvymode'           / label for column 54                            TFORM54 = '32A     '           / format for column 54                           TTYPE55 = 'objra   '           / label for column 55                            TFORM55 = 'D       '           / format for column 55                           TTYPE56 = 'objdec  '           / label for column 56                            TFORM56 = 'D       '           / format for column 56                           TTYPE57 = 'ifuglon '           / label for column 57                            TFORM57 = 'D       '           / format for column 57                           TTYPE58 = 'ifuglat '           / label for column 58                            TFORM58 = 'D       '           / format for column 58                           TTYPE59 = 'ifura   '           / label for column 59                            TFORM59 = 'D       '           / format for column 59                           TTYPE60 = 'ifudec  '           / label for column 60                            TFORM60 = 'D       '           / format for column 60                           TTYPE61 = 'ebvgal  '           / label for column 61                            TFORM61 = 'D       '           / format for column 61                           TTYPE62 = 'nexp    '           / label for column 62                            TFORM62 = 'K       '           / format for column 62                           TTYPE63 = 'exptime '           / label for column 63                            TFORM63 = 'D       '           / format for column 63                           TTYPE64 = 'drp3qual'           / label for column 64                            TFORM64 = 'K       '           / format for column 64                           TTYPE65 = 'bluesn2 '           / label for column 65                            TFORM65 = 'D       '           / format for column 65                           TTYPE66 = 'redsn2  '           / label for column 66                            TFORM66 = 'D       '           / format for column 66                           TTYPE67 = 'harname '           / label for column 67                            TFORM67 = '53A     '           / format for column 67                           TTYPE68 = 'frlplug '           / label for column 68                            TFORM68 = 'K       '           / format for column 68                           TTYPE69 = 'cartid  '           / label for column 69                            TFORM69 = '32A     '           / format for column 69                           TTYPE70 = 'designid'           / label for column 70                            TFORM70 = 'K       '           / format for column 70                           TTYPE71 = 'cenra   '           / label for column 71                            TFORM71 = 'D       '           / format for column 71                           TTYPE72 = 'cendec  '           / label for column 72                            TFORM72 = 'D       '           / format for column 72                           TTYPE73 = 'airmsmin'           / label for column 73                            TFORM73 = 'D       '           / format for column 73                           TTYPE74 = 'airmsmed'           / label for column 74                            TFORM74 = 'D       '           / format for column 74                           TTYPE75 = 'airmsmax'           / label for column 75                            TFORM75 = 'D       '           / format for column 75                           TTYPE76 = 'seemin  '           / label for column 76                            TFORM76 = 'D       '           / format for column 76                           TTYPE77 = 'seemed  '           / label for column 77                            TFORM77 = 'D       '           / format for column 77                           TTYPE78 = 'seemax  '           / label for column 78                            TFORM78 = 'D       '           / format for column 78                           TTYPE79 = 'transmin'           / label for column 79                            TFORM79 = 'D       '           / format for column 79                           TTYPE80 = 'transmed'           / label for column 80                            TFORM80 = 'D       '           / format for column 80                           TTYPE81 = 'transmax'           / label for column 81                            TFORM81 = 'D       '           / format for column 81                           TTYPE82 = 'mjdmin  '           / label for column 82                            TFORM82 = 'K       '           / format for column 82                           TTYPE83 = 'mjdmed  '           / label for column 83                            TFORM83 = 'K       '           / format for column 83                           TTYPE84 = 'mjdmax  '           / label for column 84                            TFORM84 = 'K       '           / format for column 84                           TTYPE85 = 'gfwhm   '           / label for column 85                            TFORM85 = 'D       '           / format for column 85                           TTYPE86 = 'rfwhm   '           / label for column 86                            TFORM86 = 'D       '           / format for column 86                           TTYPE87 = 'ifwhm   '           / label for column 87                            TFORM87 = 'D       '           / format for column 87                           TTYPE88 = 'zfwhm   '           / label for column 88                            TFORM88 = 'D       '           / format for column 88                           TTYPE89 = 'mngtarg1'           / label for column 89                            TFORM89 = 'K       '           / format for column 89                           TTYPE90 = 'mngtarg2'           / label for column 90                            TFORM90 = 'K       '           / format for column 90                           TTYPE91 = 'mngtarg3'           / label for column 91                            TFORM91 = 'K       '           / format for column 91                           TTYPE92 = 'catidnum'           / label for column 92                            TFORM92 = 'K       '           / format for column 92                           TTYPE93 = 'plttarg '           / label for column 93                            TFORM93 = '32A     '           / format for column 93                           TTYPE94 = 'manga_tileid'       / label for column 94                            TFORM94 = 'K       '           / format for column 94                           TTYPE95 = 'nsa_iauname'        / label for column 95                            TFORM95 = '19A     '           / format for column 95                           TTYPE96 = 'ifudesignsize'      / label for column 96                            TFORM96 = 'K       '           / format for column 96                           TTYPE97 = 'ifutargetsize'      / label for column 97                            TFORM97 = 'K       '           / format for column 97                           TTYPE98 = 'ifudesignwrongsize' / label for column 98                            TFORM98 = 'K       '           / format for column 98                           TTYPE99 = 'z_2     '           / label for column 99                            TFORM99 = 'D       '           / format for column 99                           TTYPE100= 'zmin    '           / label for column 100                           TFORM100= 'D       '           / format for column 100                          TTYPE101= 'zmax    '           / label for column 101                           TFORM101= 'D       '           / format for column 101                          TTYPE102= 'szmin   '           / label for column 102                           TFORM102= 'D       '           / format for column 102                          TTYPE103= 'szmax   '           / label for column 103                           TFORM103= 'D       '           / format for column 103                          TTYPE104= 'ezmin   '           / label for column 104                           TFORM104= 'D       '           / format for column 104                          TTYPE105= 'ezmax   '           / label for column 105                           TFORM105= 'D       '           / format for column 105                          TTYPE106= 'probs   '           / label for column 106                           TFORM106= 'D       '           / format for column 106                          TTYPE107= 'pweight '           / label for column 107                           TFORM107= 'D       '           / format for column 107                          TTYPE108= 'psweight'           / label for column 108                           TFORM108= 'D       '           / format for column 108                          TTYPE109= 'psrweight'          / label for column 109                           TFORM109= 'D       '           / format for column 109                          TTYPE110= 'sweight '           / label for column 110                           TFORM110= 'D       '           / format for column 110                          TTYPE111= 'srweight'           / label for column 111                           TFORM111= 'D       '           / format for column 111                          TTYPE112= 'eweight '           / label for column 112                           TFORM112= 'D       '           / format for column 112                          TTYPE113= 'esweight'           / label for column 113                           TFORM113= 'D       '           / format for column 113                          TTYPE114= 'esrweight'          / label for column 114                           TFORM114= 'D       '           / format for column 114                          TTYPE115= 'nsa_field'          / label for column 115                           TFORM115= 'K       '           / format for column 115                          TTYPE116= 'nsa_run '           / label for column 116                           TFORM116= 'K       '           / format for column 116                          TTYPE117= 'nsa_camcol'         / label for column 117                           TFORM117= 'K       '           / format for column 117                          TTYPE118= 'nsa_version'        / label for column 118                           TFORM118= '6A      '           / format for column 118                          TTYPE119= 'nsa_nsaid'          / label for column 119                           TFORM119= 'K       '           / format for column 119                          TTYPE120= 'nsa_nsaid_v1b'      / label for column 120                           TFORM120= 'K       '           / format for column 120                          TTYPE121= 'nsa_z   '           / label for column 121                           TFORM121= 'D       '           / format for column 121                          TTYPE122= 'nsa_zdist'          / label for column 122                           TFORM122= 'D       '           / format for column 122                          TTYPE123= 'nsa_sersic_absmag'  / label for column 123                           TFORM123= '7D      '           / format for column 123                          TTYPE124= 'nsa_elpetro_absmag' / label for column 124                           TFORM124= '7D      '           / format for column 124                          TTYPE125= 'nsa_elpetro_amivar' / label for column 125                           TFORM125= '7D      '           / format for column 125                          TTYPE126= 'nsa_sersic_mass'    / label for column 126                           TFORM126= 'D       '           / format for column 126                          TTYPE127= 'nsa_elpetro_mass'   / label for column 127                           TFORM127= 'D       '           / format for column 127                          TTYPE128= 'nsa_elpetro_ba'     / label for column 128                           TFORM128= 'D       '           / format for column 128                          TTYPE129= 'nsa_elpetro_phi'    / label for column 129                           TFORM129= 'D       '           / format for column 129                          TTYPE130= 'nsa_extinction'     / label for column 130                           TFORM130= '7D      '           / format for column 130                          TTYPE131= 'nsa_elpetro_th50_r' / label for column 131                           TFORM131= 'D       '           / format for column 131                          TTYPE132= 'nsa_petro_th50'     / label for column 132                           TFORM132= 'D       '           / format for column 132                          TTYPE133= 'nsa_petro_flux'     / label for column 133                           TFORM133= '7D      '           / format for column 133                          TTYPE134= 'nsa_petro_flux_ivar' / label for column 134                          TFORM134= '7D      '           / format for column 134                          TTYPE135= 'nsa_elpetro_flux'   / label for column 135                           TFORM135= '7D      '           / format for column 135                          TTYPE136= 'nsa_elpetro_flux_ivar' / label for column 136                        TFORM136= '7D      '           / format for column 136                          TTYPE137= 'nsa_sersic_ba'      / label for column 137                           TFORM137= 'D       '           / format for column 137                          TTYPE138= 'nsa_sersic_n'       / label for column 138                           TFORM138= 'D       '           / format for column 138                          TTYPE139= 'nsa_sersic_phi'     / label for column 139                           TFORM139= 'D       '           / format for column 139                          TTYPE140= 'nsa_sersic_th50'    / label for column 140                           TFORM140= 'D       '           / format for column 140                          TTYPE141= 'nsa_sersic_flux'    / label for column 141                           TFORM141= '7D      '           / format for column 141                          TTYPE142= 'nsa_sersic_flux_ivar' / label for column 142                         TFORM142= '7D      '           / format for column 142                          TTYPE143= 'NAME_3  '           / label for column 143                           TFORM143= '22A     '           / format for column 143                          TTYPE144= 'RA_3    '           / label for column 144                           TFORM144= 'E       '           / format for column 144                          TUNIT144= 'DEGREE  '           / units for column 144                           TTYPE145= 'DEC_3   '           / label for column 145                           TFORM145= 'E       '           / format for column 145                          TUNIT145= 'DEGREE  '           / units for column 145                           TTYPE146= 'FLUX_20_CM'         / label for column 146                           TFORM146= 'E       '           / format for column 146                          TUNIT146= 'MJY     '           / units for column 146                           TTYPE147= 'FLUX_20_CM_ERROR'   / label for column 147                           TFORM147= 'E       '           / format for column 147                          TUNIT147= 'MJY     '           / units for column 147                           TTYPE148= 'INT_FLUX_20_CM'     / label for column 148                           TFORM148= 'E       '           / format for column 148                          TUNIT148= 'MJY     '           / units for column 148                           TTYPE149= 'SIDELOBE_PROB'      / label for column 149                           TFORM149= 'E       '           / format for column 149                          TTYPE150= 'NAME_4  '           / label for column 150                           TFORM150= '25A     '           / format for column 150                          TTYPE151= 'OBJID   '           / label for column 151                           TFORM151= 'K       '           / format for column 151                          TTYPE152= 'URL     '           / label for column 152                           TFORM152= '67A     '           / format for column 152                          TTYPE153= 'RA_4    '           / label for column 153                           TFORM153= 'D       '           / format for column 153                          TTYPE154= 'DEC_4   '           / label for column 154                           TFORM154= 'D       '           / format for column 154                          TTYPE155= 'Z_4     '           / label for column 155                           TFORM155= 'E       '           / format for column 155                          TTYPE156= 'AGN_TYPE'           / label for column 156                           TFORM156= 'I       '           / format for column 156                          TTYPE157= 'SDSS_HA_NSIG'       / label for column 157                           TFORM157= 'E       '           / format for column 157                          TTYPE158= 'SDSS_HA_EW'         / label for column 158                           TFORM158= 'E       '           / format for column 158                          TTYPE159= 'SDSS_HA_EW_ERR'     / label for column 159                           TFORM159= 'E       '           / format for column 159                          TTYPE160= 'SDSS_HA_CONT'       / label for column 160                           TFORM160= 'E       '           / format for column 160                          TTYPE161= 'SDSS_HA_CENWAV'     / label for column 161                           TFORM161= 'E       '           / format for column 161                          TTYPE162= 'SDSS_HA_CENWAV_ERR' / label for column 162                           TFORM162= 'E       '           / format for column 162                          TTYPE163= 'SDSS_HA_SIGMA'      / label for column 163                           TFORM163= 'E       '           / format for column 163                          TTYPE164= 'SDSS_HA_SIGMA_ERR'  / label for column 164                           TFORM164= 'E       '           / format for column 164                          TTYPE165= 'SDSS_HA_HEIGHT'     / label for column 165                           TFORM165= 'E       '           / format for column 165                          TTYPE166= 'SDSS_HEIGHT_ERR'    / label for column 166                           TFORM166= 'E       '           / format for column 166                          TTYPE167= 'SDSS_HB_NSIG'       / label for column 167                           TFORM167= 'E       '           / format for column 167                          TTYPE168= 'SDSS_HB_EW'         / label for column 168                           TFORM168= 'E       '           / format for column 168                          TTYPE169= 'SDSS_HB_EWERR'      / label for column 169                           TFORM169= 'E       '           / format for column 169                          TTYPE170= 'SDSS_HB_CONT'       / label for column 170                           TFORM170= 'E       '           / format for column 170                          TTYPE171= 'SDSS_HB_CENWAV'     / label for column 171                           TFORM171= 'E       '           / format for column 171                          TTYPE172= 'SDSS_HB_CENWAVERR'  / label for column 172                           TFORM172= 'E       '           / format for column 172                          TTYPE173= 'SDSS_HB_SIGMA'      / label for column 173                           TFORM173= 'E       '           / format for column 173                          TTYPE174= 'SDSS_HB_SIGMAERR'   / label for column 174                           TFORM174= 'E       '           / format for column 174                          TTYPE175= 'SDSS_HB_HEIGHT'     / label for column 175                           TFORM175= 'E       '           / format for column 175                          TTYPE176= 'SDSS_HB_HEIGHTERR'  / label for column 176                           TFORM176= 'E       '           / format for column 176                          TTYPE177= 'SDSS_OIII_NSIG'     / label for column 177                           TFORM177= 'E       '           / format for column 177                          TTYPE178= 'SDSS_OIII_EW'       / label for column 178                           TFORM178= 'E       '           / format for column 178                          TTYPE179= 'SDSS_OIII_EWERR'    / label for column 179                           TFORM179= 'E       '           / format for column 179                          TTYPE180= 'SDSS_OIII_CONT'     / label for column 180                           TFORM180= 'E       '           / format for column 180                          TTYPE181= 'SDSS_OIII_CENWAV'   / label for column 181                           TFORM181= 'E       '           / format for column 181                          TTYPE182= 'SDSS_OIII_CENWAVERR' / label for column 182                          TFORM182= 'E       '           / format for column 182                          TTYPE183= 'SDSS_OIII_SIGMA'    / label for column 183                           TFORM183= 'E       '           / format for column 183                          TTYPE184= 'SDSS_OIII_SIGMAERR' / label for column 184                           TFORM184= 'E       '           / format for column 184                          TTYPE185= 'SDSS_OIII_HEIGHT'   / label for column 185                           TFORM185= 'E       '           / format for column 185                          TTYPE186= 'SDSS_OIII_HEIGHTERR' / label for column 186                          TFORM186= 'E       '           / format for column 186                          TTYPE187= 'SDSS_NII_NSIG'      / label for column 187                           TFORM187= 'E       '           / format for column 187                          TTYPE188= 'SDSS_NII_EW'        / label for column 188                           TFORM188= 'E       '           / format for column 188                          TTYPE189= 'SDSS_NII_EWERR'     / label for column 189                           TFORM189= 'E       '           / format for column 189                          TTYPE190= 'SDSS_NII_CONT'      / label for column 190                           TFORM190= 'E       '           / format for column 190                          TTYPE191= 'SDSS_NII_CENWAV'    / label for column 191                           TFORM191= 'E       '           / format for column 191                          TTYPE192= 'SDSS_NII_CENWAVERR' / label for column 192                           TFORM192= 'E       '           / format for column 192                          TTYPE193= 'SDSS_NII_SIGMA'     / label for column 193                           TFORM193= 'E       '           / format for column 193                          TTYPE194= 'SDSS_NII_SIGMAERR'  / label for column 194                           TFORM194= 'E       '           / format for column 194                          TTYPE195= 'SDSS_NII_HEIGHT'    / label for column 195                           TFORM195= 'E       '           / format for column 195                          TTYPE196= 'SDSS_NII_HEIGHTERR' / label for column 196                           TFORM196= 'E       '           / format for column 196                          TTYPE197= 'HB_WAV  '           / label for column 197                           TFORM197= 'E       '           / format for column 197                          TTYPE198= 'HB_NORM '           / label for column 198                           TFORM198= 'E       '           / format for column 198                          TTYPE199= 'HB_NORM_ERR'        / label for column 199                           TFORM199= 'E       '           / format for column 199                          TTYPE200= 'HB_FWHM '           / label for column 200                           TFORM200= 'E       '           / format for column 200                          TTYPE201= 'HB_FWHM_ERR'        / label for column 201                           TFORM201= 'E       '           / format for column 201                          TTYPE202= 'HB_VEL  '           / label for column 202                           TFORM202= 'E       '           / format for column 202                          TTYPE203= 'HB_VEL_ERR'         / label for column 203                           TFORM203= 'E       '           / format for column 203                          TTYPE204= 'HB_FLUX '           / label for column 204                           TFORM204= 'E       '           / format for column 204                          TTYPE205= 'HB_FLUX_ERR'        / label for column 205                           TFORM205= 'E       '           / format for column 205                          TTYPE206= 'HB_LUM  '           / label for column 206                           TFORM206= 'D       '           / format for column 206                          TTYPE207= 'HB_LUM_ERR'         / label for column 207                           TFORM207= 'D       '           / format for column 207                          TTYPE208= 'HBB_WAV '           / label for column 208                           TFORM208= 'E       '           / format for column 208                          TTYPE209= 'HBB_NORM'           / label for column 209                           TFORM209= 'E       '           / format for column 209                          TTYPE210= 'HBB_NORM_ERR'       / label for column 210                           TFORM210= 'E       '           / format for column 210                          TTYPE211= 'HBB_FWHM'           / label for column 211                           TFORM211= 'E       '           / format for column 211                          TTYPE212= 'HBB_FWHM_ERR'       / label for column 212                           TFORM212= 'E       '           / format for column 212                          TTYPE213= 'HBB_VEL '           / label for column 213                           TFORM213= 'E       '           / format for column 213                          TTYPE214= 'HBB_VEL_ERR'        / label for column 214                           TFORM214= 'E       '           / format for column 214                          TTYPE215= 'HBB_FLUX'           / label for column 215                           TFORM215= 'E       '           / format for column 215                          TTYPE216= 'HBB_FLUX_ERR'       / label for column 216                           TFORM216= 'E       '           / format for column 216                          TTYPE217= 'HBB_LUM '           / label for column 217                           TFORM217= 'D       '           / format for column 217                          TTYPE218= 'HBB_LUM_ERR'        / label for column 218                           TFORM218= 'D       '           / format for column 218                          TTYPE219= 'HBBB_WAV'           / label for column 219                           TFORM219= 'E       '           / format for column 219                          TTYPE220= 'HBBB_NORM'          / label for column 220                           TFORM220= 'E       '           / format for column 220                          TTYPE221= 'HBBB_NORM_ERR'      / label for column 221                           TFORM221= 'E       '           / format for column 221                          TTYPE222= 'HBBB_FWHM'          / label for column 222                           TFORM222= 'E       '           / format for column 222                          TTYPE223= 'HBBB_FWHM_ERR'      / label for column 223                           TFORM223= 'E       '           / format for column 223                          TTYPE224= 'HBBB_VEL'           / label for column 224                           TFORM224= 'E       '           / format for column 224                          TTYPE225= 'HBBB_VEL_ERR'       / label for column 225                           TFORM225= 'E       '           / format for column 225                          TTYPE226= 'HBBB_FLUX'          / label for column 226                           TFORM226= 'E       '           / format for column 226                          TTYPE227= 'HBBB_FLUX_ERR'      / label for column 227                           TFORM227= 'E       '           / format for column 227                          TTYPE228= 'HBBB_LUM'           / label for column 228                           TFORM228= 'D       '           / format for column 228                          TTYPE229= 'HBBB_LUM_ERR'       / label for column 229                           TFORM229= 'D       '           / format for column 229                          TTYPE230= 'OIII_4959_WAV'      / label for column 230                           TFORM230= 'E       '           / format for column 230                          TTYPE231= 'OIII_4959_NORM'     / label for column 231                           TFORM231= 'E       '           / format for column 231                          TTYPE232= 'OIII_4959_NORM_ERR' / label for column 232                           TFORM232= 'E       '           / format for column 232                          TTYPE233= 'OIII_4959_FWHM'     / label for column 233                           TFORM233= 'E       '           / format for column 233                          TTYPE234= 'OIII_4959_FWHM_ERR' / label for column 234                           TFORM234= 'E       '           / format for column 234                          TTYPE235= 'OIII_4959_VEL'      / label for column 235                           TFORM235= 'E       '           / format for column 235                          TTYPE236= 'OIII_4959_VEL_ERR'  / label for column 236                           TFORM236= 'E       '           / format for column 236                          TTYPE237= 'OIII_4959_FLUX'     / label for column 237                           TFORM237= 'E       '           / format for column 237                          TTYPE238= 'OIII_4959_FLUX_ERR' / label for column 238                           TFORM238= 'E       '           / format for column 238                          TTYPE239= 'OIII_4959_LUM'      / label for column 239                           TFORM239= 'D       '           / format for column 239                          TTYPE240= 'OIII_4959_LUM_ERR'  / label for column 240                           TFORM240= 'D       '           / format for column 240                          TTYPE241= 'OIII_4959B_WAV'     / label for column 241                           TFORM241= 'E       '           / format for column 241                          TTYPE242= 'OIII_4959B_NORM'    / label for column 242                           TFORM242= 'E       '           / format for column 242                          TTYPE243= 'OIII_4959B_NORM_ERR' / label for column 243                          TFORM243= 'E       '           / format for column 243                          TTYPE244= 'OIII_4959B_FWHM'    / label for column 244                           TFORM244= 'E       '           / format for column 244                          TTYPE245= 'OIII_4959B_FWHM_ERR' / label for column 245                          TFORM245= 'E       '           / format for column 245                          TTYPE246= 'OIII_4959B_VEL'     / label for column 246                           TFORM246= 'E       '           / format for column 246                          TTYPE247= 'OIII_4959B_VEL_ERR' / label for column 247                           TFORM247= 'E       '           / format for column 247                          TTYPE248= 'OIII_4959B_FLUX'    / label for column 248                           TFORM248= 'E       '           / format for column 248                          TTYPE249= 'OIII_4959B_FLUX_ERR' / label for column 249                          TFORM249= 'E       '           / format for column 249                          TTYPE250= 'OIII_4959B_LUM'     / label for column 250                           TFORM250= 'D       '           / format for column 250                          TTYPE251= 'OIII_4959B_LUM_ERR' / label for column 251                           TFORM251= 'D       '           / format for column 251                          TTYPE252= 'OIII_5007_WAV'      / label for column 252                           TFORM252= 'E       '           / format for column 252                          TTYPE253= 'OIII_5007_NORM'     / label for column 253                           TFORM253= 'E       '           / format for column 253                          TTYPE254= 'OIII_5007_NORM_ERR' / label for column 254                           TFORM254= 'E       '           / format for column 254                          TTYPE255= 'OIII_5007_FWHM'     / label for column 255                           TFORM255= 'E       '           / format for column 255                          TTYPE256= 'OIII_5007_FWHM_ERR' / label for column 256                           TFORM256= 'E       '           / format for column 256                          TTYPE257= 'OIII_5007_VEL'      / label for column 257                           TFORM257= 'E       '           / format for column 257                          TTYPE258= 'OIII_5007_VEL_ERR'  / label for column 258                           TFORM258= 'E       '           / format for column 258                          TTYPE259= 'OIII_5007_FLUX'     / label for column 259                           TFORM259= 'E       '           / format for column 259                          TTYPE260= 'OIII_5007_FLUX_ERR' / label for column 260                           TFORM260= 'E       '           / format for column 260                          TTYPE261= 'OIII_5007_LUM'      / label for column 261                           TFORM261= 'D       '           / format for column 261                          TTYPE262= 'OIII_5007_LUM_ERR'  / label for column 262                           TFORM262= 'D       '           / format for column 262                          TTYPE263= 'OIII_5007B_WAV'     / label for column 263                           TFORM263= 'E       '           / format for column 263                          TTYPE264= 'OIII_5007B_NORM'    / label for column 264                           TFORM264= 'E       '           / format for column 264                          TTYPE265= 'OIII_5007B_NORM_ERR' / label for column 265                          TFORM265= 'E       '           / format for column 265                          TTYPE266= 'OIII_5007B_FWHM'    / label for column 266                           TFORM266= 'E       '           / format for column 266                          TTYPE267= 'OIII_5007B_FWHM_ERR' / label for column 267                          TFORM267= 'E       '           / format for column 267                          TTYPE268= 'OIII_5007B_VEL'     / label for column 268                           TFORM268= 'E       '           / format for column 268                          TTYPE269= 'OIII_5007B_VEL_ERR' / label for column 269                           TFORM269= 'E       '           / format for column 269                          TTYPE270= 'OIII_5007B_FLUX'    / label for column 270                           TFORM270= 'E       '           / format for column 270                          TTYPE271= 'OIII_5007B_FLUX_ERR' / label for column 271                          TFORM271= 'E       '           / format for column 271                          TTYPE272= 'OIII_5007B_LUM'     / label for column 272                           TFORM272= 'D       '           / format for column 272                          TTYPE273= 'OIII_5007B_LUM_ERR' / label for column 273                           TFORM273= 'D       '           / format for column 273                          TTYPE274= 'NII_6548_WAV'       / label for column 274                           TFORM274= 'E       '           / format for column 274                          TTYPE275= 'NII_6548_NORM'      / label for column 275                           TFORM275= 'E       '           / format for column 275                          TTYPE276= 'NII_6548_NORM_ERR'  / label for column 276                           TFORM276= 'E       '           / format for column 276                          TTYPE277= 'NII_6548_FWHM'      / label for column 277                           TFORM277= 'E       '           / format for column 277                          TTYPE278= 'NII_6548_FWHM_ERR'  / label for column 278                           TFORM278= 'E       '           / format for column 278                          TTYPE279= 'NII_6548_VEL'       / label for column 279                           TFORM279= 'E       '           / format for column 279                          TTYPE280= 'NII_6548_VEL_ERR'   / label for column 280                           TFORM280= 'E       '           / format for column 280                          TTYPE281= 'NII_6548_FLUX'      / label for column 281                           TFORM281= 'E       '           / format for column 281                          TTYPE282= 'NII_6548_FLUX_ERR'  / label for column 282                           TFORM282= 'E       '           / format for column 282                          TTYPE283= 'NII_6548_LUM'       / label for column 283                           TFORM283= 'D       '           / format for column 283                          TTYPE284= 'NII_6548_LUM_ERR'   / label for column 284                           TFORM284= 'D       '           / format for column 284                          TTYPE285= 'NII_6548B_WAV'      / label for column 285                           TFORM285= 'E       '           / format for column 285                          TTYPE286= 'NII_6548B_NORM'     / label for column 286                           TFORM286= 'E       '           / format for column 286                          TTYPE287= 'NII_6548B_NORM_ERR' / label for column 287                           TFORM287= 'E       '           / format for column 287                          TTYPE288= 'NII_6548B_FWHM'     / label for column 288                           TFORM288= 'E       '           / format for column 288                          TTYPE289= 'NII_6548B_FWHM_ERR' / label for column 289                           TFORM289= 'E       '           / format for column 289                          TTYPE290= 'NII_6548B_VEL'      / label for column 290                           TFORM290= 'E       '           / format for column 290                          TTYPE291= 'NII_6548B_VEL_ERR'  / label for column 291                           TFORM291= 'E       '           / format for column 291                          TTYPE292= 'NII_6548B_FLUX'     / label for column 292                           TFORM292= 'E       '           / format for column 292                          TTYPE293= 'NII_6548B_FLUX_ERR' / label for column 293                           TFORM293= 'E       '           / format for column 293                          TTYPE294= 'NII_6548B_LUM'      / label for column 294                           TFORM294= 'D       '           / format for column 294                          TTYPE295= 'NII_6548B_LUM_ERR'  / label for column 295                           TFORM295= 'D       '           / format for column 295                          TTYPE296= 'HA_WAV  '           / label for column 296                           TFORM296= 'E       '           / format for column 296                          TTYPE297= 'HA_NORM '           / label for column 297                           TFORM297= 'E       '           / format for column 297                          TTYPE298= 'HA_NORM_ERR'        / label for column 298                           TFORM298= 'E       '           / format for column 298                          TTYPE299= 'HA_FWHM '           / label for column 299                           TFORM299= 'E       '           / format for column 299                          TTYPE300= 'HA_FWHM_ERR'        / label for column 300                           TFORM300= 'E       '           / format for column 300                          TTYPE301= 'HA_VEL  '           / label for column 301                           TFORM301= 'E       '           / format for column 301                          TTYPE302= 'HA_VEL_ERR'         / label for column 302                           TFORM302= 'E       '           / format for column 302                          TTYPE303= 'HA_FLUX '           / label for column 303                           TFORM303= 'E       '           / format for column 303                          TTYPE304= 'HA_FLUX_ERR'        / label for column 304                           TFORM304= 'E       '           / format for column 304                          TTYPE305= 'HA_LUM  '           / label for column 305                           TFORM305= 'D       '           / format for column 305                          TTYPE306= 'HA_LUM_ERR'         / label for column 306                           TFORM306= 'D       '           / format for column 306                          TTYPE307= 'HAB_WAV '           / label for column 307                           TFORM307= 'E       '           / format for column 307                          TTYPE308= 'HAB_NORM'           / label for column 308                           TFORM308= 'E       '           / format for column 308                          TTYPE309= 'HAB_NORM_ERR'       / label for column 309                           TFORM309= 'E       '           / format for column 309                          TTYPE310= 'HAB_FWHM'           / label for column 310                           TFORM310= 'E       '           / format for column 310                          TTYPE311= 'HAB_FWHM_ERR'       / label for column 311                           TFORM311= 'E       '           / format for column 311                          TTYPE312= 'HAB_VEL '           / label for column 312                           TFORM312= 'E       '           / format for column 312                          TTYPE313= 'HAB_VEL_ERR'        / label for column 313                           TFORM313= 'E       '           / format for column 313                          TTYPE314= 'HAB_FLUX'           / label for column 314                           TFORM314= 'E       '           / format for column 314                          TTYPE315= 'HAB_FLUX_ERR'       / label for column 315                           TFORM315= 'E       '           / format for column 315                          TTYPE316= 'HAB_LUM '           / label for column 316                           TFORM316= 'D       '           / format for column 316                          TTYPE317= 'HAB_LUM_ERR'        / label for column 317                           TFORM317= 'D       '           / format for column 317                          TTYPE318= 'HABB_WAV'           / label for column 318                           TFORM318= 'E       '           / format for column 318                          TTYPE319= 'HABB_NORM'          / label for column 319                           TFORM319= 'E       '           / format for column 319                          TTYPE320= 'HABB_NORM_ERR'      / label for column 320                           TFORM320= 'E       '           / format for column 320                          TTYPE321= 'HABB_FWHM'          / label for column 321                           TFORM321= 'E       '           / format for column 321                          TTYPE322= 'HABB_FWHM_ERR'      / label for column 322                           TFORM322= 'E       '           / format for column 322                          TTYPE323= 'HABB_VEL'           / label for column 323                           TFORM323= 'E       '           / format for column 323                          TTYPE324= 'HABB_VEL_ERR'       / label for column 324                           TFORM324= 'E       '           / format for column 324                          TTYPE325= 'HABB_FLUX'          / label for column 325                           TFORM325= 'E       '           / format for column 325                          TTYPE326= 'HABB_FLUX_ERR'      / label for column 326                           TFORM326= 'E       '           / format for column 326                          TTYPE327= 'HABB_LUM'           / label for column 327                           TFORM327= 'D       '           / format for column 327                          TTYPE328= 'HABB_LUM_ERR'       / label for column 328                           TFORM328= 'D       '           / format for column 328                          TTYPE329= 'NII_6584_WAV'       / label for column 329                           TFORM329= 'E       '           / format for column 329                          TTYPE330= 'NII_6584_NORM'      / label for column 330                           TFORM330= 'E       '           / format for column 330                          TTYPE331= 'NII_6584_NORM_ERR'  / label for column 331                           TFORM331= 'E       '           / format for column 331                          TTYPE332= 'NII_6584_FWHM'      / label for column 332                           TFORM332= 'E       '           / format for column 332                          TTYPE333= 'NII_6584_FWHM_ERR'  / label for column 333                           TFORM333= 'E       '           / format for column 333                          TTYPE334= 'NII_6584_VEL'       / label for column 334                           TFORM334= 'E       '           / format for column 334                          TTYPE335= 'NII_6584_VEL_ERR'   / label for column 335                           TFORM335= 'E       '           / format for column 335                          TTYPE336= 'NII_6584_FLUX'      / label for column 336                           TFORM336= 'E       '           / format for column 336                          TTYPE337= 'NII_6584_FLUX_ERR'  / label for column 337                           TFORM337= 'E       '           / format for column 337                          TTYPE338= 'NII_6584_LUM'       / label for column 338                           TFORM338= 'D       '           / format for column 338                          TTYPE339= 'NII_6584_LUM_ERR'   / label for column 339                           TFORM339= 'D       '           / format for column 339                          TTYPE340= 'NII_6584B_WAV'      / label for column 340                           TFORM340= 'E       '           / format for column 340                          TTYPE341= 'NII_6584B_NORM'     / label for column 341                           TFORM341= 'E       '           / format for column 341                          TTYPE342= 'NII_6584B_NORM_ERR' / label for column 342                           TFORM342= 'E       '           / format for column 342                          TTYPE343= 'NII_6584B_FWHM'     / label for column 343                           TFORM343= 'E       '           / format for column 343                          TTYPE344= 'NII_6584B_FWHM_ERR' / label for column 344                           TFORM344= 'E       '           / format for column 344                          TTYPE345= 'NII_6584B_VEL'      / label for column 345                           TFORM345= 'E       '           / format for column 345                          TTYPE346= 'NII_6584B_VEL_ERR'  / label for column 346                           TFORM346= 'E       '           / format for column 346                          TTYPE347= 'NII_6584B_FLUX'     / label for column 347                           TFORM347= 'E       '           / format for column 347                          TTYPE348= 'NII_6584B_FLUX_ERR' / label for column 348                           TFORM348= 'E       '           / format for column 348                          TTYPE349= 'NII_6584B_LUM'      / label for column 349                           TFORM349= 'D       '           / format for column 349                          TTYPE350= 'NII_6584B_LUM_ERR'  / label for column 350                           TFORM350= 'D       '           / format for column 350                          TTYPE351= 'HB_NARR_FLUX'       / label for column 351                           TFORM351= 'E       '           / format for column 351                          TTYPE352= 'HA_NARR_FLUX'       / label for column 352                           TFORM352= 'E       '           / format for column 352                          TTYPE353= 'AV      '           / label for column 353                           TFORM353= 'E       '           / format for column 353                          TTYPE354= 'OIII_5007_LUM_DERRED' / label for column 354                         TFORM354= 'D       '           / format for column 354                          TTYPE355= 'HA_LUM_DERRED'      / label for column 355                           TFORM355= 'D       '           / format for column 355                          TTYPE356= 'R_EDD   '           / label for column 356                           TFORM356= 'E       '           / format for column 356                          TTYPE357= 'SYS_VEL '           / label for column 357                           TFORM357= 'E       '           / format for column 357                          TTYPE358= 'NVS_N   '           / label for column 358                           TFORM358= 'E       '           / format for column 358                          TTYPE359= 'NVS_IDS '           / label for column 359                           TFORM359= '15A     '           / format for column 359                          TTYPE360= 'NVS_RA  '           / label for column 360                           TFORM360= 'E       '           / format for column 360                          TTYPE361= 'NVS_DEC '           / label for column 361                           TFORM361= 'E       '           / format for column 361                          TTYPE362= 'NVS_FLUX'           / label for column 362                           TFORM362= 'E       '           / format for column 362                          TTYPE363= 'NVS_LUM '           / label for column 363                           TFORM363= 'D       '           / format for column 363                          TTYPE364= 'FIR_N   '           / label for column 364                           TFORM364= 'E       '           / format for column 364                          TTYPE365= 'FIR_IDS '           / label for column 365                           TFORM365= '76A     '           / format for column 365                          TTYPE366= 'FIR_FLUX'           / label for column 366                           TFORM366= 'E       '           / format for column 366                          TTYPE367= 'FIR_LUM '           / label for column 367                           TFORM367= 'D       '           / format for column 367                          TTYPE368= 'B_MAG   '           / label for column 368                           TFORM368= 'E       '           / format for column 368                          TTYPE369= 'B_FLUX  '           / label for column 369                           TFORM369= 'E       '           / format for column 369                          TTYPE370= 'Separation'         / label for column 370                           TFORM370= 'D       '           / format for column 370                          TUNIT370= 'arcsec  '           / units for column 370                           TCOMM370= 'Distance between matched objects along a great circle'               TUCD370 = 'pos.angDistance'                                                     DATE-HDU= '2022-05-13T04:22:40' / Date of HDU creation (UTC)                    STILVERS= '3.4-2   '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / STIL Author class      END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             CÔwBı¿VLASS1QLCIR J094319.18+361452.0CÔwBı¿CvĞ¤?>vÉCg‡+>E¡Ë@HğØ;XDĞ@3œ;ohttps://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=ad%3AVLASS%2FVLASS1.2.ql.T20t13.J094324%2B363000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&RUNID%3Dwp5e6czxwtx6djof&CIRCLE=145.82994160335681+36.24779717634149+0.025        é2C0940+364J0943+3614@b:Å…°¯@B·Öñhã@B·Öñhã 	 +@3'I{t¥ $ @J	?)
+»E>¸=õÂ¾°£×  á>JÀƒ0.172 >W
+=0.093 >‰7L0.13  ¿€  -1    ¿€  -1    X/Srfc_2022a      -ç12704                           11751-12704                     1-301330                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @b:À ë@B¸  C@g|ÈË¦º@H®b×HæI@b:¸ºÇ@B¸¡œZ?‰@x–Ó       	@¿¤Ç®zá        @:­V“@FüSóMjma154                                                       "6                                     /@b<]¢r†/@A¾'cXK?ğCa@N¥?ñ
+°ÈŠGí?ñëe©¨–?ò¹¶o“5Ò?ó›ÅXdE$?ú0H@ár?ê¤Û7?ì_Ã´ö?ìÓª6ŸÏ      äÆ      äÇ      äÇ@‡Tów[@yœ8°J¶@/Y‰ßs@ û¨‚j©                              plateTargets-1.par                    ]J094319.15+361452.1       ÿÿÿÿÿÿü        ?–ß^¨_¸À8     À8     À8     À8     À8     À8     À8     À8     À8     À8     À8     À8     À8     À8     À8            >      ?       v1_0_1     İqÿÿÿÿÿÿü?–ß^¨_¸?–Ûûœv¡PÀ.”¤–áXÀ0Ÿ(„ƒ‡ßÀ3[wFˆ{À5‘À‡D,À5ê½ãû½{À68ãÿï9À6|ûüe@ÌÀ0{œ…×EÀ2,À>-bÀ3FŞ Ñ·À4´ÿdÏqÀ5wFBĞ_À5Ø-àqÀ6 {ÃÅ½@ 0VœÄÇE@vh]ÌcñA@hµ]á\¦Ê@£MeãS÷Ï@£-”ã¼Ó[@£]-àq@Œ&)*0U2B2á|`  B&ŠÌ†   ?éµ³ıvc@PÔ­À˜$?º+fÌ,?¹Ò:õÊG?°E¼ø™YX?§ò8}[0¹?¡^%¾ğ/?šVÂ%÷,ê?’¬³G`3@4x™ËW‚@3Œöœ©ïR@.ùË‰Ö­÷@PTc^J8@Ü*çÕfÏ@¯x×škP±@Àå¡ÊÀƒ@Ç¼.záH@Í9Û"Ğå?LnÇ_¯ĞÙ?HÜ¬‚™<?@‚z:?‡"C)~I?h>€N='?e¥åojx?MZàÑ“@Svh	Ô•@v¢VÕÏªÎ@ñ®±Ä2Ê@®àŞÒ‰@¾òíOß;d@Æ¦Tıó¶F@Íò‡Oß;?9àøCG ?~õU¤n¬(?@p²"/™?‘,
+¿Ë?dâ "²i?dÈf-'øº>ùe~gQ>?ç¸½vB§@      @Q7Z³R¨@DÒ2ôI™@:J{xFc@T€Œ SâÖ@şe+ÓÃ@´‡€4mÆ@ÇšØÔıó¶@Ğ=Â\)@ÕM?|í‘?iÙû…:¿?•|`MÈŠÉ?‘¬7Ø*ñ?’dœ?nŞc?v†bÁQ¶?aùì¹¨âö?BÉ2¡XxêFIRST J094319.1+361452CÔpBıÏB“aH>IºB•Ñì<e`BspSpec-52992-1594-566.fit)? > http://das.sdss.org/spectro/1d_26/1594/1d/spSpec-52992-1594-566.fit@b:¸ºÇ@B¸¡œZ<´Ä- B•VÏA( ö>ÔCzxEÑ­Y@¡õ@±Öİ=úÿBÑ £;Q  A„?›q=–©C1E›\i> Şe@º¾>   Aô(=@èXB?Ş«@«9
+=äs·Bı=øEŸş0=ß&‚@_%Œ=Ã@ĞB›- @°BA%_X>ş8CGdEÒ\’@¡ˆ²@§=ö0@Báá˜;b  E—õqAĞ×t?ä¨ÓC¼:Í    BÈ¥v    C)“A9§ÌHnûá‰9G×wª¯:­ÙE—õq=Ä³·?‰QDGèV    Ãb™    ?©ÛAyD§G¥p©˜¡MŒGß‚ `Ú2E—õq&   €   E4    C¤ö    (Æã"    DÉ#Ö9Ÿ0        E›fA»ØÕ    C¼;Ç    BÈ¦    C•f    HªuÚ.’        E›f@Õz    DGä4    Ãg‡    B»Ã    H»ÔıïÍ        EœìBº@ÖY×C¼;ÇAÒñüBÈ¦@Îµ½CëİåB^´ÈH-ĞwQ¨şüGü&™h¼ğEœìA D•@SU1DGä4BîØèÃg‡BÑÈACS$B}CAH!ı…§'®H ±O°øHEÌ®áB²    C¼:Í    BÈ¥v    CšO    H#Pö2ş        EÌ®á?Jä    DGèV    Ãb™    Ak§Ş    GİÉ£ZèD        EÍ$áBÑŞB@3»QC¼:Í    BÈ¥v    Df	AÅ/H=Ô¬²ÔDGèæêÆl«ÑEÍ$á                                                EÍ$áAÏÕl?ØrÔE4BÍ§±C¤öBÛÕDÙúÎCqºHK§›!.H\·(%ÎEÍÊ)BÕÈS@PµC¼:Í    BÈ¥v    Dk¹A§z’H=¶ˆ53Ö°Gå+{éı7äEÍÊ)@´~@ªËDGèV    Ãb™    B3~B–ÙGö°:¼z\GóI«{äjC)“Df	?îÇ"He	éqŸH][}ÔÜ    BÈ¦?€           -99   CÔpBıÇB–  D± òUğğÁ?€  261940                                                                      B•ÓèD°ûòÀ2©ûAˆi?¬$?Ùr}ºäC7_BBJ÷GVLASS1QLCIR J121329.30+504429.3C7_BBJ÷GB­&é>wÎÙBŸA‰>$İ@.Ô,;£×
+@FÜ;^Ò‰https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=ad%3AVLASS%2FVLASS1.1.ql.T23t13.J121533%2B503000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&RUNID%3Dvlw5xbi3obs0en2f&CIRCLE=183.3720939381861+50.741481742537715+0.025        R!N1210+510J1213+5044@fëçmÍbõ@I^éP‘@I^éP‘  @=G·ØIÒ 2 ,@=aùğ†n>Ü(ö>½p¤>›¥ã   L¿€  -1    ¿€  -1    =aG®0.026 ¿€  -1    ¿€  -1    X/Srfc_2022a      )6101                            10508-6101                      1-175865                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @fëçWjÓ‘@I^ênµ«£@a,ˆåE$Ş@PS·²Œû>@fëçW’@I^êl?˜ÀwSôsÛ       	@¿¤Â\(ö        @54záG®@F\¾ß¤@ma069                                                       3                                     + @fĞiDg8@IıÆ\pC_?ğù|ÃŸıa?ñj³g ù	?òIQ‚©“?ù¶·ª%Ù?ÿ;­À˜$@É.4?én\Ôí,¿?íæä:§›»?îò©Ö'¿b      ãK      ãO      ãU@µMUi@¥¹bŒ½@Ó¢±pP@¢CV–åŠ                              plateTargets-1.par                    ¾J121329.27+504429.3       =ÿÿÿÿÿÿü        ?Ÿ~Ş,p¡SÀ8     À8     À8     À8     À8     À8     À8     À8     À8     À8     À8     À8     À8     À8     À8           ;      ”       v1_0_1     Õäÿÿÿÿÿÿü?Ÿ~Ş,p¡S?Ÿ¿ZôB\œÀ.óàŞÒ‰À0ÉÇy¦µÀ3ÔSóMjÀ5Çâ‚@·€À6ÎcŠ	À7KÆ§ïÀ7iDg8~À.ß!-w1À0÷eıŠÛÀ3·â‚@·€À5q°‰ 'RÀ6E+ÓÃaÀ6¯ß;dZÀ6îÿ—$t@M-V@rÍ¾vÈ´9@v`Ä›¥ãT@£@\(õÃ@£;¸Që…@£vÌÌÌÌÍ@‘Që…¸BDÙc'   B<QÎ€  ?çòÑ®³İ@b"—Oß;?Ê4°á´»^?ÉÛ±l6L?ÀK±¯:Ï?·úúİO÷?±d€³Æ ?ª`e›eK´?¢³‰.èJØ@+~Ov_Ø®@)hõÂ\)@-øDĞ©*@4Q×Ûô‡ı@‡Å¬1&é@­-záG®@ÀŸ‘ë…¸@ÉLs3333@Ğ3ÌÌÌÍ?Ö>$ş½	á?öK]ÌcñA?€e6»}ïğ?ƒeŸÀe>İRi5ûóØ?sfN¾=?3_öÑ@,P°ò{²ÿ@4@¸ºÇ@„Ğ£×
+=q@«ê#×
+=q@¿û‡®zá@È]LÌÌÌÍ@Ï‘     ?Ø!%µ¿j?ú®§GØæ?‚“®4CT?Ná£0ò?g?a¿¸’-?vxÅc¡åî?3ìúrU¯?äİØù*ù©@      @bOß;d@?„Ğ©*0@,åF
+¦L0@D}2a|Ú@†ÍÊÀƒo@²øÌÌÌÍ@É÷³3333@Ñ”æffff@Ø\ù™™™š?å$¤–áX?ô~§°³’?¬İC<•³?”<ì¿±[?fõÅ”t@Å?^¶YBç[C?@?P«q»ãFIRST J121329.2+504429C7_>BJ÷OBÇLÍ>1'BÍuÃ<e`BspSpec-52413-0970-470.fit(”¡; +http://das.sdss.org/spectro/1d_26/0970/1d/spSpec-52413-0970-470.fit@fëçl‹C–@I^éWG²<ùˆí B[8EAé>%÷'CMÊêEÓY¨@¢YŠAO—?.ª0B†ã;†À @õS}?¨y=šœC$¡µEœ£‚>œ3ı?İ(‘>~ÿüA›G@3×ØBıü@tˆ=ğÈ¼C¨™E¡N$>Ë¼@{ÿê>àBuİ@B‹ô A0ä´>!ÈáCMÑôEÔ 6@¢ÜW@ŠÅ=µ/€CE¦d;F  E—õqAĞ?ÄŒD¬v    B-ïG    BŸÇ AqëWH~4D|ıGíƒ{ºôlE—õq                                                E—õq    €   F;€     E;€         À          ø      E›fA¢²¡    D¬r    B-îp    CLF¸    H(ëçàt8’        E›f                                                EœìBtJ|@XÍD¬rAE¾B-îpA	`sD×¾Aí‘)HBäÂujGüû¢¡x¼ÛEœì                                                EÌ®áBfNq    D¬v    B-ïG    D>éÙ    HGJÁS1        EÌ®á                                                EÍ$áB¡'×@
+¯GD¬v    B-ïG    D…ä8Aæq¼HPUªu¶‡Gü-ó.úEÍ$á                                                EÍ$á@¯‰ >Éì)F;€ €   E;€ €   D¿¨­BÜxTHWa×ü%ríHåªˆßÎéEÍÊ)C.y|@m§D¬v    B-ïG    EiÏBßHa½ƒcÂæ-H 5İ5RaEÍÊ)                                                BŸÇ D…ä8@Š,H°LaÄ"HIÅ	õ´-    B-îp?€           -99   C7_;BJ÷BÀ™šDÅ	 Ô?€  108413                                                                      BÍt˜DÆq?ÏÜA†¨ ?,#Õ?ÍßØAeäCr‰AãÔhVLASS1QLCIR J160821.12+282843.3Cr‰AãÔhB›¨ö>…¸BC–>\)@4	Õ;Ë)_@Ñ·;ƒohttps://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=ad%3AVLASS%2FVLASS1.1.ql.T18t22.J160954%2B283000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&RUNID%3Dywd063ybz5ejod1f&CIRCLE=242.08802973231298+28.47871394826889+0.025        "ÂtC1606+286J1608+2828@nBÑ­]è@<zŠ'
+ÛÑ@<zŠ'
+ÛÑ  @5$‘K~È  @E›bbË§3>B\>€  ¾o²   Ú¿€  -1    =49X0.029 =‘hs0.046 ¿€  -1    ¿€  -1    X/Srfc_2022a      #…12703                           9093-12703                      1-296766                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @nBÑâ•ƒW@<z‹ Î#@GT.Ø®Î@G_>oY,¬@nBÑáÃô@<zŠø&³?¨HÏ|ªuŠ       	@¿¤™™™™š        @5­BÃÉîÌ@FõF
+¦L0ma157                                                       4                                     %Ó@nA0P@<XÀ‹uê?ğÎ…3±t?ò«`k{?ó2-V?öÊ½f'|?øŒ^³¾#?ûxÊ˜ñÔ?éAkÛmj?ìËn“[‘÷?í°J¶·ª      äê      äì      äñ@{?¦Şüz@RÜ±F^‰@C'gM3@ÂÎFI                             plateTargets-1.par                    /J160821.32+282827.2              ©        ?©±í«i¦?¢Æîj¬F?±\b ¦-?¸òìF­c?»°<«ù?¢Æîj¬F?±\b ¦-?åÀY!…Æ?³yéĞé‘ÿ?£€*\ÊÜ2?¤ÎX%[À8     À8     ?³¬ˆ‰¦İ?£ƒZ{w?¤Ñfã       0             v1_0_1     Êuÿÿÿÿÿÿü?©±í«i¦?©Õ,¦Q8À0"¶®}VmÀ0ó¢œwškÀ3ĞA‰7KÇÀ5‡®záHÀ6RIº^5À6º^5?|îÀ6ıVlô!À/´ã¼ÓZ†À0b•éá°ŠÀ3‘ä÷eı‹À5%µsê³hÀ5ãœ¾ß¤À6F+jçÕgÀ6ø -à?¹î|Iız@æv î@kòvÈ´9X@£Oğ£×
+=@£3W
+=p¤@ †®záH@|NÈ´9XB<ÍŞ’@  B3@M‚   ?ä©æî·`@dü“t¼j?Ùu6?Ø¿ì¹ñ(?Ï1¹¶o“6?ÆóÓ¡Ó#ÿ?À¥¤i×4/?¹>ñ­VåÀ?±æOTÑél@$¸DĞ©*@"å¾ ºK@·4.Ûµ@$Rñ©ûçm@o)hr° Å@·+Iº@ ]úáG®@© £×
+=q@¯rfffff?cFÄ4¢Éï?”ÅõB6Ü?„.¾.ye?Ñ~íEé?“SÖ@éÕ?U< oK½?	øPh‹R@ußeUÅ.@  §Å¬@fËŸ¾vÉ@‹’XbMÓ@ŞG®zá@§Nk…¸R@®máG®{?i>«¤´?£Å€¨1?’gó
+N8?Õ]Ä upÅ?¦rÌ¦6`?]ÕşÏ©K?&J’Vvˆ?æ7ûïĞ@ VìÔª@dàí‘hr°@3ü¥zxl"@ ‰4¬¯öÓ@,ÄêJŒM@kõÛ"Ğå`@“…     @¦¬Që…¸@±Å¸Qì@·y\(õÃ?VïĞİÓ…?±¼kU¹où?Éš¥—Ô?Ó…ì=«\:?¶?U€e.?›¸šæ ³i?v/<ºšpFIRST J160821.1+282843CrAãÔ„B“ÌÍ>záBœQì<e`BspSpec-53496-1578-012.fit(`0 6http://das.sdss.org/spectro/1d_26/1578/1d/spSpec-53496-1578-012.fit@nBÑ·Xâ@<zŠø&³=M¶½ AÓšò@^3Ø>iB–Š*E×yÌ@¥vœ@_Ar>} Aái;a` @~N>ÍYr=Îæ×B€F•EŸ‘v?E p?ê¼g>í€@¥C=?»ÛoAB9?ËF>÷VB{‘>E¤Z¥>§àË@"š£>„¤Axxá?¼ÇèBD@®„+>&_CB–naEØ<@¥ûì@•u?>u0B<E;Œ@ E—õq@{’?’9C§i¡    ÁP¨    Aµ«@Ó«éH	OÃíGò–å(‚…E—õq                                                E—õq    €   EAşW    B›S#        À          ø      E›f@£…I    C§i²    ÁP	    AğèÙ    H“îî;-        E›f                                                EœìAu†É?µKÂC§i²B2KÁP	Ai+B¶œmAGÒH/2A±¾Ç»H}1`ÎEœì                                                EÌ®áA8d¢    C§i¡    ÁP¨    B³[„    H.£÷}µ1        EÌ®á                                                EÍ$áAÁê‰?½“¢C§i¡    ÁP¨    C=•A8Ğ–H@%Òö}“1Gÿ’¢oŒÔ¢EÍ$á                                                EÍ$á@¼Õx?˜õEAşWC‚ËB›S#BÖ€CÕQĞB`?HR8 ]ø¬H#"à÷,ëEÍÊ)B±?´:¡C§i¡    ÁP¨    Cˆœ‰A0A@HGV†_¹©GşG-ıÅˆEÍÊ)                                                Aµ«C=•@F¹ıHyQ÷ÀHtœ^ZÇ¯à    ÁP	             -99   ÂÆ  ÂÆ  ÂÆ  Äˆa8ú¦D£@€  353477,353477,353477,353477                                                 BœT0D×ÒC˜›AØ%>†!Ş?Ğæòw@¥áCs”öBIÜÃVLASS1QLCIR J161419.65+502756.1Cs”öBIÜÃB:V>gl‹B-­=ıó¶@20U<C–@Ft;ØDĞhttps://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=ad%3AVLASS%2FVLASS1.1.ql.T23t17.J161533%2B503000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&RUNID%3Dmsjrjg3thveofx5t&CIRCLE=243.58188546586646+50.46558595314685+0.025        "÷4N1612+505J1614+5027@nrÖÜ@I;˜ú!ï”@I;˜ú!ï”  @3¡«ó8qa 2 @L>pÍÈ>æff>Ñë…>éxÕ   H¿€  -1    ¿€  -1    <ıó¶0.021 ¿€  -1    ¿€  -1    X/Srfc_2022a      !"12704                           8482-12704                      1-92866                         v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @nrG¨­€@I;™!Pg	@S !
+\ğß@F¡rhX÷@nrDú@I;™$(Ô5?”D‚æÏ­R       	@¿¤½p£×
+        @4O|í‘hs@Cõí(Œçma042                                                       "1                                     #@nt‘>E@H²C¢?İ?ğË3Úøßz?ğĞĞgŒ T?ğö¾7Ş“Ÿ?òC¿rq6¤?öS¸ä¸{İ@ Ëeè’%?İ
+á’5ø?ëÿÅGN?í~æûL<      ß      ßD      ßH@²×sü@‘)ˆ†@…m\ú¬Ú@f¥P‡                             plateTargets-1.par                    œJ161419.62+502756.2                      ?®Ú0bZÉ?§çQ³PúÄ?¶@…+M‹¤?¿ÒRGËp¬?Á¿×hE?£õ È|Ü?¹›o\¯-€?åÀY!…Æ?¢µ¼åÎüR?’‚Æï=:?“ÃÌs
+¹—À8     À8     ?–2=iíÚ?‹‡ç`ÌÉ?ŒãëÍCR       Ÿ             v1_0_1     ãÿÿÿÿÿÿü?®Ú0bZÉ?¯"¼ÃjM|À/ ŞÒˆÎpÀ1 ªdÂø8À3èŒç¯¸À5¸ -àÀ6(Œç°À6øğ¹À7</ƒ{J#À1½ã¼Ó[À1Z…‡“İ˜À3å¼£n/À5uo iÀ65éá°‰ À6”xFÜÀ6ÈÛ‹¬q@qX5?|í‘@uš“t¼@U3â‚@·€@¡ÊúáG®@ŸŠõÂ\)@£8Që…@ö®záHBAÕ5Šà  B9Ñpš   ?ê„Ud¶bş@UÒ‡+J?ÅM/]»œú?ÅÕQÖŒi?º}ík¨Å‡?³~†TBw?¬Fs×Ûõ?¥p±CŠÏ?g˜úà@#W¬Äïˆ¹@#Û§2ßP]@Ğr[U@$(Œç¯¸@nšéxÔıô@‹¨Z¬1@Ÿ§(õÂ\@¨{€    @¬O¸Qì?àÕûµ¤a@şÀ//˜t?a×ƒ_—±?£¾i\ºëú?f×mÌ ª?ã­¹â}?@Õ@ÊÜ˜Ù@@}¿HÌ@3]Ùb¶®@g—Oß;@Šˆp£×
+=@Û…¸Qì@¥ÿÜ(õÂ@«™½p£×
+?âDZ¢ãÅ7@qth‡©?nlÂvÂg?¥lh'î?k»İ¼3L‰?‘p»Sş„Ö?E§")†ÈB?è4½vîsç@      @Uç33333@1<PHğ@†ÄÅ—Nf@'äŠqŞj@fwçl‹C–@ÄÂ\(ö@£÷k…¸R@¯G®zá@´m33333?ûìô!-w@
+–ğ¸»?±zUüÍ?¹ò%Kéã? ‚còîŸ…?“=~H|?f†.­½h FIRST J161419.6+502756Cs”ïBIÜÊB®>OßB¢ÌÍ<e`BspSpec-52051-0623-061.fit(@Ÿ  http://das.sdss.org/spectro/1d_26/0623/1d/spSpec-52051-0623-061.fit@nr0O‹@I;˜kœ0M=w’ B2QÕ@ô¦Ö>/+B’%ŞEÙ‰ğ@§ÊAcS>µÍ`AÆê{;Fà @–›–?°=îÄBkê,E¡®?%Ù??ñ¤Ö?	€@ÖÆm?ĞæüAÔº;@¤é×>Fu²Beş*E¥æè>Jó½@€ê‘>U„€Aèúq?«ğBH?Aàü>>T–B’)ÛEÚ8}@§™f@¢İ×=ÕÃ BG¶;G€ E—õq>âz?†H–C½e    ÄY†    @8°@ÛhVGç2× GûeÓƒE—õq@VŒä?g®|Dûu    Âóuû    Aı‹YAåH×öÂäÄ H1oòNÇEE—õq    €   F;€     E;€         À          ø      E›f?ËŸÛ    C½\R    ÄYŠ    A)©;    HNòYs›         E›fA—¤    DûÈ    ÂóvĞ    B¹'#    H7A
+M”"á        Eœì@˜ß?ºÓC½\RBüÊ×ÄYŠBOaØB š­AY€H &â»:`HQ‘=Š¨EœìAæ?;âDûÈAİoÂóvĞA0·jCŒXÜA”gYHQ q¢Â5?H£zÙõˆâEÌ®á>Vaä    C½e    ÄY†    ?ëè«    Gİ ò–ºØ        EÌ®áA‡    Dûu    Âóuû    CVçÑ    HJı¥÷#Şu        EÍ$á    €   C½e    ÄY†        À          ø      EÍ$áAş=µ?¯ÒíDûu    Âóuû    CÊÍxAŒ@?HYxƒÌR½HZI3ø EÍ$á@G>9‰F;€ €   E;€ €   D´BJªHbŒößêXH)aMé~[EÍÊ)?"i0?¼À¥C½e    ÄY†    @³¯]APÔGö‘<Ç˜¬ğH
+:AA<+EÍÊ)BL™?ƒóDûu    Âóuû    D#¯ùAS+=Hdá›u·BH
+…‚	KB
+P®CÊÍx@ƒ%âH¶[Mè7¿.H¡"¡¨#@    ÂóvĞ             -99   ÂÆ  ÂÆ  ÂÆ  Ä‘ã‡A ˆ    111078                                                                      B¢ËÖDâ3±­iA§ş>tS:?É!Q£cÎCêjA/hVLASS1QLCIR J210319.52+105639.0CêjA/hBf%>ixÕBUV=ûçm@Tàv<t¼@šk;–»™https://ws.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/caom2ops/sync?ID=ad%3AVLASS%2FVLASS1.1.ql.T13t32.J210220%2B103000.10.2048.v1.I.iter1.image.pbcor.tt0.subim.fits&RUNID%3Dz9cxm8k67t74b9gd&CIRCLE=315.831359174522+10.94419070634259+0.025          -N2C2100+107J2103+1056@s½L÷z@%ãh½ƒ®¡@%ãh½ƒ®¡  @3‚oKè6 
+ 8@C|:S¸ä¸>…¸>ë…½×
+=   H¿€  -1    ='ï0.036 =¾w0.034 ¿€  -1    ¿€  -1    X/Srfc_2022a      $6103                            7972-6103                       1-113368                        v3_1_1                          v3_1_1                          v1_9_1                          v5_5_36                         v2_9                            APOGEE-2&MaNGA                  MaNGA dither                    @s½Mˆ¬Ú@%ãjzæó@MÅ±ÖÀ6äÖÕ@s½M¶íg@%ãjËG?¸:#}        @Å€            @4X7´¢3œ@G€$xGma039-ma073                                                 1-3                                    ¾@sÌd2‹@$d^NÜ?ñfä:§›»?ñÿ.Hè§?òâ#á†˜5?öÊêt}€^?øKÑ$Jb$?ş¶ígw?âı$<ÿ?ë"±pOô4?ì`C¢?İ      àÑ      àä      àå@Òñ©ûç@th‡¨ÖM@E8ï4Ö¡@/ìVÕÏ«                             plateTargets-1.par                    lJ210319.51+105638.9       =       =        ?¦3Ól#??Ÿ(i«•D ?©†‡nêÍ?²¡ƒá¡p?´…g³m€6?•ìÑOŒÊ?°¯°î?åÀY!…Æ?Ê[ÙDªSü?¹Ÿ<pÉ–·?»c²VÿÁÀ8     À8     ?µ4Ïëe>H?­ÁC+Îºä?®éÌ·ÔD       .      Ú       v1_0_1     Ô™ÿÿÿÿÿÿü?¦3Ól#??¦tòñ#Ä*À0e`A‰7LÀ0¥zxl"hÀ3HõÂ\)À4üq²•êÀ5ÊÀƒn˜À6/;dZ¬À6u¡ÊÀƒÀ0ZáG®{À0«ŸU›=À31ø .À4²\(õÃÀ5p‰ 'RTÀ5ÎŠqŞi­À6-àq@Æ˜5‹‚@SJ…‡“İ˜@in—P@¢ïk…¸R@£;(õÂ\@ ¾záG®@´÷ÎÙ‡B1éª[à  B(ÿçÚÀ  ?î/d9Õå@Fü„µÜÆ??è‡ÄŸä6?è4oŞµ,?Şñgù?ÖryšÑW?ĞGÓÔ(
+á?È°¯_Ô{î?Ás2&Ã¹@?|í‘h@HPïÜœ@$×ö+jçÕ@'€ŞÒˆÎp@_Dİ/Ÿ¾@……KÆ§ï@˜¸Që…@¢ê³3333@¨££×
+=q?¢ÄdH~ôÓ?ç¦?šIÂÂ?šVwÛÚ?ÇS6Ş¹^[?±ÒRGËp¬?eÜËwÊ’?Iòı/ƒ®@#`ÍÈuO7@'r¼£n@`hr° Å@…4¡ÊÀƒ@˜]33333@¢­G®zá@©oÂ\(ö?¤•¶"f?è*Qã!¢è?¼ßÿ«F?ÊJœÜD9?³áy,;È-?i\G~™¸ù?Nö^ÛF{ÿ?ë&Ö˜şi'@      @K¨ÿ—$tT@#.aÏş°u@$n±Ä2ÊX@&c¯·éù@c*Ğå`A‰@‹p›¥ãSø@ ËW
+=p¤@ª=\(õÃ@²0\(õÂ?½˜ZÕ8¬?ê^á6çÚ?¾2Ò»#W?Ädìé¢Æi?¤ş)f*×D?“VuWšñˆ?k¤@9FIRST J210319.5+105638CêhA/=Bf¸R>IºBk¸<e`BspSpec-52207-0727-504.fit(ÕÀ`	http://das.sdss.org/spectro/1d_26/0727/1d/spSpec-52207-0727-504.fit@s½M¶íg@%ãg ù	l=04+ÿÿBŒEA)NW>~†BÑfJEÕù6@¤T@ºå}>	@`B˜3ğ;˜  A–E@ «º=Û~fB­u3E.>dL`@P ò>SapA©!?¤ÕĞA³=@,š.=ö¸<B©;E£=>zĞ4@€`û>`©°A³±˜?“Á B†cA+>#aĞBÑB¼EÖ©@¤Øm@½¨+>Z@B–•c;–€ E—õqA>?l_D»`    Á»“    C6ƒâAjjH6¡˜­íÓ#GòÆg¨_ÙE—õq                                                E—õq    €   EVé¹    CòÊ        À          ø      E›f@ïõÎ    D»N    Á»–ó    B	Å    H#xà¤R•ä        E›f                                                EœìA´&y?† ­D»NAïN]Á»–óAO‰«CnkA‚l¨H=…#çç’H ,],AÜEœì                                                EÌ®áAªØc    D»`    Á»“    C“¢õ    HBNpà±¼º        EÌ®á                                                EÍ$áBƒp?ã+D»`    Á»“    Dc­AÄ°”H\;&°*HcŠ¦öê:EÍ$á                                                EÍ$á@ùİ?‡íCEVé¹CëACòÊBÄ»¨D)gBÇMæHS]uz¨H(¶‰
+«eIEÍÊ)Bm ?å0ÊD»`    Á»“    D`æ¬AÇ hH[ãE³bFH°äø* „EÍÊ)                                                C6ƒâDc­?Ï©ÒHd%úÁ°¨HwÃ6Ø¶    Á»–ó?€  1560904        ÂÆ  ÂÆ  Bx  DËw?*”z             -99                                                                ÂÆ  ÄlZ§Ó AŒC>´‘‡?ÑXJÌÁÆj                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
